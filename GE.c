@@ -35,7 +35,6 @@ char mje[80];
 int j,n;
 int i=0;
 
-
     while(fgets(mje,50,stdin) != NULL){
 	n=linea%2;
 	if (linea==0){
