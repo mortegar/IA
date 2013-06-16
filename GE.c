@@ -33,7 +33,7 @@ int leer_archivo(){
 char *ptr;
 char mje[80];
 int j,n;
-int i=0;
+int i=0,k=0;
 
     while(fgets(mje,50,stdin) != NULL){
 	n=linea%2;
@@ -59,32 +59,25 @@ int i=0;
                                j++;
 			}    
 		i++; 
-	} else if(n!=0){
+	} else if(n==0){
 		j=0;
-             	ptr = strtok(mje, " ");
+		ptr = strtok(mje, " ");
                          while(ptr != NULL){
-				al.sep[j][i]=atoi(ptr);   
-					
+				al.sep[j][k]=atoi(ptr);   
+				
                                ptr = strtok(NULL, " ");
                                j++;
-			    
-			}     i++; 
+			}     k++; 
 	}
     
     linea++; 
-	//printf("n:%d\n",n);	
-	//printf("l:%d\n",linea);	   
+	   
     }	
-	printf( "%d\n", al.p);
-	printf( "%d\n", al.bef[9]);
-	printf( "%d\n", al.target[9]);
-        printf( "%d\n", al.last[9]);
-	printf( "%f\n", al.pbef[9]);
-	printf( "%f\n", al.plast[9]);
-	  
+	
 	
     return 0;
 }
+
 int main(){
 	leer_archivo();
 	return 0;
