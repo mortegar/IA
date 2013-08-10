@@ -12,7 +12,7 @@
 
 //variables globales
 
-int x[80];
+//int x[80];
 
 //estructura 
 typedef struct{
@@ -113,30 +113,48 @@ void iniciar(void){
 void evaluar(void) { 
 	int mem; int i; 
 	double x[al.p+1], d[al.p+1], a[al.p+1], r[al.p+1];
-	float f, sum=0;
+	float f, sum[80];
+	for(mem=0; mem<POPSIZE; mem++){ // sumatoria comienza en 0
+		sum[mem]=0;
+	}
 	for(mem=0; mem<POPSIZE; mem++){
 		for(i=0; i<al.p; i++){
-			x[i+1] = al.bef[i]+population[mem].y[i]*(al.last[i]-al.bef[i]);
+			x[i+1] = al.bef[i]+population[mem].y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
 			printf("%.5f, ", x[i+1]);
-			d[i+1]=x[i+1]-al.target[i+1];
-			if(d[i+1]<0){
+			d[i+1]=x[i+1]-al.target[i+1]; // desviacion
+			if(d[i+1]<0){ // aterriza antes target time
 				a[i+1]=-d[i+1];
 				r[i+1]=0;
 			}
-			if(d[i+1]>0){
+			if(d[i+1]>0){ // aterriza despues target time
 				r[i+1]=d[i+1];
 				a[i+1]=0;
 				}
-			if(d[i+1]==0){
+			if(d[i+1]==0){ // aterriza justo en target time 
 				a[i+1]=0;
 				r[i+1]=0;
 			}
 			f=(al.pbef[i+1]*a[i+1]+al.plast[i+1]*r[i+1]);
-			sum=sum+f;
+			sum[mem]=sum[mem]+f;
 		}	
 		population[mem].fitness=sum[mem];	
 		printf("FITNESS %.5f\n", population[mem].fitness);
 	}
+}
+
+void guardar_mejor() {
+    int mem; int i; int cur_best = 0; 
+ 
+    for(mem=0; mem<POPSIZE; mem++){
+	if(population[mem].fitness > population[POPSIZE].fitness){ //busca el mejor miembro
+            cur_best = mem;
+            population[POPSIZE].fitness = population[mem].fitness; 
+        }
+    }
+
+    /*Se copia el mejor miembro*/
+    for(i=0; i<al.p; i++)
+        population[POPSIZE].y[i] = population[cur_best].y[i];
 }
 
 /*
