@@ -5,7 +5,7 @@
 #include <fstream>
 
 
-#define POPSIZE 20             /* poblacion size */ 
+#define POPSIZE 70            /* poblacion size */ 
 #define MAXGENS 100           /* max. number of generations */ 
 #define PXOVER 0.85            /* probability of crossover */ 
 #define PMUTATION 0.01         /* probability of mutation */ 
@@ -40,6 +40,7 @@ typedef struct{/* gen, miembro población */
 	double fitness;               /* valor fitness */
 	double unfitness; 		/* valor unfitness */
 	int pista [80]; 
+	int cuadrante;
 }genotype;
 
 genotype poblacion[POPSIZE+1]; //poblacion
@@ -97,8 +98,10 @@ int i=0,k=0;
     return 0;
 }
 
+int clasificar();
 using namespace std;
 ofstream rc("ruteo.txt");
+
 void iniciar(void){
 
     for (int j = 0; j < POPSIZE; j++) {
@@ -107,9 +110,9 @@ void iniciar(void){
  	    for (int i = 0; i < al.p; i++)
 	    { 
  		poblacion[j].y[i]= (float)rand()/(float)RAND_MAX;
-		rc << "| y= "<<(poblacion[j].y[i]);
+		//rc << "| y= "<<(poblacion[j].y[i]);
 		//printf("y: %.5f, ",poblacion[j].y[i]);
-	    }rc <<endl;
+	    }//rc <<endl;
     }
     return;
 }
@@ -126,7 +129,7 @@ void evaluar(void) {
 		for(i=0; i<al.p; i++){
 			x[i] = al.bef[i]+poblacion[mem].y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
 			//printf("%.5f, ", x[i]);
-			//rc << "| x= "<<(x[i]);
+			rc << "| x= "<<(x[i]);
 			d[i]=x[i]-al.target[i]; // desviacion
 			if(d[i]<0){ // aterriza antes target time
 				a[i]=-d[i];
@@ -142,7 +145,7 @@ void evaluar(void) {
 			}
 			f=(al.pbef[i]*a[i]+al.plast[i]*r[i]);
 			sumf[mem]=sumf[mem]+f;	
-		}//rc <<endl;	
+		}rc <<endl;	
 		for(i=0; i<al.p; i++){// calculo unfitness		
 			for(j=0; j<al.p; j++){
 				//rc << "| j= "<<(j);
@@ -165,6 +168,49 @@ void evaluar(void) {
 		//rc <<endl;
 	}
 }
+void evaluarh(void) { 
+	int i,s,j; 
+	double x[al.p+1], d[al.p+1], a[al.p+1], r[al.p+1];
+	float f=0, sumf, sumu;
+	// sumatoria comienza en 0
+	sumf=0;
+	sumu=0;
+	//calculo de fitness
+	for(i=0; i<al.p; i++){
+		x[i] = al.bef[i]+hijo.y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
+		rc << "| x= "<<(x[i]);
+		d[i]=x[i]-al.target[i]; // desviacion
+		if(d[i]<0){ // aterriza antes target time
+			a[i]=-d[i];
+			r[i]=0;
+		}
+		if(d[i]>0){ // aterriza despues target time
+			r[i]=d[i];
+			a[i]=0;
+		}
+		if(d[i]==0){ // aterriza justo en target time 
+			a[i]=0;
+			r[i]=0;
+		}
+		f=(al.pbef[i]*a[i]+al.plast[i]*r[i]);
+		sumf=sumf+f;	
+	}rc <<endl;	
+	for(i=0; i<al.p; i++){// calculo unfitness		
+		for(j=0; j<al.p; j++){
+			s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
+			if(s>0&&j>i){ 
+				f=s;
+			}else f=0; //valor distinto de 0 la separacion fue violada
+		}sumu=sumu+f;
+	}
+	hijo.fitness=sumf;
+	hijo.unfitness=sumu;
+	
+	//rc << "| FITNESS= "<<(hijo.fitness);
+	//rc <<endl;
+	//rc << "| UNFITNESS= "<<(hijo.unfitness);
+	//rc <<endl;
+}
 
 /*cruzamiento uniforme 2 padres->1 hijo,toma cada valor al azar de los dos padres*/
 void Xover(int one, int two){
@@ -172,15 +218,17 @@ void Xover(int one, int two){
     float point;    /* crossover point */
 	for(i=0; i<al.p; i++){
 		point = rand()%1000/1000.0;
-		rc << "|punto= "<<(point);
-		rc << "|i= "<<(i);
+		//rc << "|punto= "<<(point);
+		//rc << "|i= "<<(i);
 		
 		if (point>=0.5){
 			hijo.y[i]=poblacion[one].y[i];
 	    	}else{
 			hijo.y[i]=poblacion[two].y[i];
 		}rc << "| hijo= "<<(hijo.y[i]); 
-	} rc <<endl;
+	} 
+	clasificar();	
+	rc <<endl;
 }
 
 void crossover(void) { 
@@ -191,7 +239,7 @@ void crossover(void) {
     double x;
     for(mem=0; mem<POPSIZE; ++mem){
         x = rand()%1000/1000.0;
-	printf("%f",x);
+	//printf("%f",x);
 	if(x < PXOVER){
             ++first;
 	    if(first % 2 == 0)
@@ -216,11 +264,47 @@ void guardar_mejor() {
 		poblacion[POPSIZE].y[i] = poblacion[mejor].y[i];
 }
 
+/*clasifica la poblacion en cuadrantes para reemplazar a los peores*/
+int clasificar(){
+	int mem; 
+	evaluarh();
+	for(mem=0; mem<POPSIZE; ++mem){
+		if(poblacion[mem].fitness<=hijo.fitness){
+			if(poblacion[mem].unfitness<=hijo.unfitness){
+				poblacion[mem].cuadrante=3;
+				//rc << "| mem= "<<(mem);
+				//rc << "| cua= "<<(poblacion[mem].cuadrante);
+			}
+			if(poblacion[mem].unfitness>hijo.unfitness){			
+				poblacion[mem].cuadrante=1;
+				//rc << "| mem= "<<(mem);
+				//rc << "| cua= "<<(poblacion[mem].cuadrante);
+			}
+		}else{
+			if(poblacion[mem].unfitness<=hijo.unfitness){
+				poblacion[mem].cuadrante=4;
+				//rc << "| mem= "<<(mem);
+				//rc << "| cua= "<<(poblacion[mem].cuadrante);
+			}
+			if(poblacion[mem].unfitness>hijo.unfitness){			
+				poblacion[mem].cuadrante=2;
+				//rc << "| mem= "<<(mem);
+				//rc << "| cua= "<<(poblacion[mem].cuadrante);
+			}
+		}rc <<endl;
+        }
+	return 0;
+}
+
 int main(){
 	leer_archivo();
 	iniciar();
-	evaluar(); 
-	crossover();
+	
+
+	for(int i=0;i<MAXGENS;i++){ 
+		evaluar();
+		crossover();
+	}
 	//printf("ingrese numero de pistas: ");
 	//scanf("%d",&al.pista);
 	//variable(poblacion.y);
