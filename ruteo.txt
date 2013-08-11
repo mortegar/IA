@@ -1,222 +1,370 @@
-| x= 490.281| x= 411.516| x= 418.685| x= 435.337| x= 515.683| x= 210.083| x= 275.856| x= 469.399| x= 261.665| x= 435.323
-| FITNESS= 63448.9
-| UNFITNESS= 8
-| x= 334.281| x= 540.25| x= 242.574| x= 314.195| x= 533.742| x= 537.785| x= 411.977| x= 446.632| x= 199.571| x= 461.664
-| FITNESS= 66959.5
-| UNFITNESS= 0
-| x= 136.009| x= 328.345| x= 146.774| x= 437.775| x= 179.722| x= 302.831| x= 182.795| x= 174.638| x= 590.51| x= 268.474
-| FITNESS= 37298.9
-| UNFITNESS= 0
-| x= 349.561| x= 655.673| x= 346.921| x= 221.813| x= 393.711| x= 359.075| x= 347.593| x= 560.83| x= 268.388| x= 543.365
-| FITNESS= 65073.2
-| UNFITNESS= 0
-| x= 355.5| x= 617.683| x= 257.496| x= 474.9| x= 236.075| x= 280.721| x= 489.899| x= 536.805| x= 166.808| x= 631.816
-| FITNESS= 65737.4
-| UNFITNESS= 1
-| x= 355.178| x= 242.245| x= 169.922| x= 377.871| x= 506.154| x= 279.095| x= 153.07| x= 134.95| x= 343.712| x= 191.359
-| FITNESS= 35046.3
-| UNFITNESS= 0
-| x= 231.46| x= 727.878| x= 468.83| x= 457.641| x= 228.666| x= 366.131| x= 293.969| x= 465.831| x= 368.716| x= 491.859
-| FITNESS= 67612.6
-| UNFITNESS= 0
-| x= 357.591| x= 216.565| x= 273.245| x= 492.03| x= 524.21| x= 448.754| x= 252.785| x= 456.125| x= 426.83| x= 335.962
-| FITNESS= 66638.5
-| UNFITNESS= 0
-| x= 424.78| x= 286.12| x= 274.284| x= 470.032| x= 478.994| x= 270.634| x= 227.723| x= 525.337| x= 294.764| x= 501.275
-| FITNESS= 62170.3
-| UNFITNESS= 0
-| x= 540.281| x= 518.163| x= 365.725| x= 460.937| x= 305.604| x= 541.33| x= 304.492| x= 490.201| x= 447.004| x= 612.753
-| FITNESS= 80195.8
-| UNFITNESS= 0
-| x= 336.471| x= 313.488| x= 489.056| x= 487.055| x= 175.709| x= 521.764| x= 414.41| x= 319.083| x= 417.536| x= 299.687
-| FITNESS= 63998.6
-| UNFITNESS= 2
-| x= 466.981| x= 363.794| x= 277.201| x= 192.095| x= 193.452| x= 245.963| x= 376.069| x= 312.176| x= 212.341| x= 610.682
-| FITNESS= 44677.1
-| UNFITNESS= 0
-| x= 173.364| x= 264.215| x= 297.582| x= 419.202| x= 548.214| x= 546.362| x= 434.054| x= 297.285| x= 476.896| x= 343.226
-| FITNESS= 69030.4
-| UNFITNESS= 0
-| x= 255.489| x= 322.512| x= 335.07| x= 199.875| x= 177.813| x= 453.86| x= 180.84| x= 480.681| x= 209.83| x= 530.3
-| FITNESS= 46598.1
-| UNFITNESS= 0
-| x= 161.048| x= 716.607| x= 111.115| x= 317.664| x= 188.414| x= 229.468| x= 485.402| x= 453.497| x= 434.393| x= 640.8
-| FITNESS= 58369.2
-| UNFITNESS= 0
-| x= 403.967| x= 612.094| x= 128.355| x= 153.334| x= 341.493| x= 155.674| x= 155.668| x= 217.481| x= 345.408| x= 567.38
-| FITNESS= 35874.4
-| UNFITNESS= 0
-| x= 375.527| x= 609.814| x= 110.866| x= 163.068| x= 554.997| x= 213.174| x= 527.15| x= 182.084| x= 589.996| x= 186.867
-| FITNESS= 49469.5
-| UNFITNESS= 4
-| x= 503.332| x= 234.709| x= 90.752| x= 488.304| x= 374.282| x= 202.25| x= 197.899| x= 301.086| x= 551.34| x= 567.388
-| FITNESS= 55250.1
-| UNFITNESS= 0
-| x= 283.411| x= 498.314| x= 332.94| x= 288.345| x= 415.887| x= 165.436| x= 364.456| x= 464.51| x= 273.759| x= 653.138
-| FITNESS= 60341.4
-| UNFITNESS= 0
-| x= 377.098| x= 676.81| x= 403.828| x= 363.287| x= 125.762| x= 460.998| x= 501.457| x= 539.643| x= 533.212| x= 573.026
-| FITNESS= 79345.5
-| UNFITNESS= 0
-| x= 550.157| x= 603.352| x= 469.317| x= 514.028| x= 406.762| x= 346.75| x= 198.277| x= 497.015| x= 540.361| x= 198.266
-| FITNESS= 70428.4
-| UNFITNESS= 8
-| x= 408.374| x= 331.176| x= 354.011| x= 193.383| x= 421.776| x= 264.491| x= 272.936| x= 229.448| x= 168.817| x= 474.637
-| FITNESS= 42550.5
-| UNFITNESS= 0
-| x= 225.172| x= 552.472| x= 303.999| x= 508.873| x= 234.619| x= 369.025| x= 449.829| x= 176.636| x= 349.996| x= 454.492
-| FITNESS= 56970.5
-| UNFITNESS= 4
-| x= 535.057| x= 442.554| x= 230.604| x= 456.266| x= 303.358| x= 121.474| x= 280.259| x= 393.521| x= 514.959| x= 276.244
-| FITNESS= 51658.2
-| UNFITNESS= 4
-| x= 419.455| x= 460.14| x= 291.895| x= 225.606| x= 426.879| x= 203.245| x= 405.686| x= 144.266| x= 323.777| x= 505.904
-| FITNESS= 48383.7
-| UNFITNESS= 0
-| x= 418.793| x= 545.064| x= 235.136| x= 174.465| x= 381.052| x= 405.984| x= 455.02| x= 272.783| x= 472.64| x= 260.5
-| FITNESS= 53136
-| UNFITNESS= 0
-| x= 524.993| x= 570.931| x= 363.968| x= 205.338| x= 346.936| x= 159.965| x= 242.005| x= 518.191| x= 447.873| x= 206.589
-| FITNESS= 49455.2
-| UNFITNESS= 7
-| x= 176.849| x= 393.519| x= 331.787| x= 348.115| x= 406.618| x= 251.683| x= 475.423| x= 254.906| x= 285.317| x= 254.306
-| FITNESS= 47718.3
-| UNFITNESS= 14
-| x= 552.276| x= 196.965| x= 437.332| x= 236.879| x= 193.749| x= 319.043| x= 558.263| x= 536.762| x= 483.781| x= 507.44
-| FITNESS= 70680.6
-| UNFITNESS= 0
-| x= 181.092| x= 571.496| x= 250.593| x= 425.066| x= 529.658| x= 537.82| x= 514.448| x= 216.986| x= 496.908| x= 432.377
-| FITNESS= 73411.6
-| UNFITNESS= 1
-| x= 256.834| x= 691.808| x= 471.96| x= 467.441| x= 331.674| x= 382.747| x= 197.729| x= 248.438| x= 529.248| x= 404.722
-| FITNESS= 64275.2
-| UNFITNESS= 0
-| x= 328.375| x= 661.069| x= 297.806| x= 219.698| x= 190.287| x= 431.985| x= 453.58| x= 188.159| x= 410.018| x= 404.734
-| FITNESS= 51552.5
-| UNFITNESS= 3
-| x= 489.397| x= 592.614| x= 164.025| x= 190.335| x= 331.844| x= 175.294| x= 186.622| x= 287.118| x= 283.112| x= 623.152
-| FITNESS= 41835.2
-| UNFITNESS= 0
-| x= 519.648| x= 536.53| x= 441.304| x= 443.704| x= 330.753| x= 272.747| x= 302.63| x= 420.498| x= 412.651| x= 288.676
-| FITNESS= 61720.7
-| UNFITNESS= 0
-| x= 194.029| x= 234.827| x= 134.404| x= 371.063| x= 271.801| x= 251.451| x= 274.118| x= 166.743| x= 329.861| x= 624.444
-| FITNESS= 41238.6
-| UNFITNESS= 0
-| x= 379.935| x= 340.738| x= 366.332| x= 419.756| x= 326.905| x= 191.716| x= 524.016| x= 405.672| x= 371.078| x= 263.298
-| FITNESS= 57039.9
-| UNFITNESS= 0
-| x= 368.751| x= 428.983| x= 438.404| x= 263.615| x= 218.726| x= 268.662| x= 454.4| x= 411.478| x= 584.089| x= 328.107
-| FITNESS= 60771.8
-| UNFITNESS= 0
-| x= 514.951| x= 269.705| x= 261.942| x= 98.2986| x= 458.56| x= 473.12| x= 257.036| x= 177.257| x= 529.684| x= 518.34
-| FITNESS= 55305.8
-| UNFITNESS= 12
-| x= 150.14| x= 441.559| x= 504.303| x= 396.861| x= 203.843| x= 336.096| x= 515.927| x= 167.982| x= 180.399| x= 350.299
-| FITNESS= 49455.5
-| UNFITNESS= 0
-| x= 258.758| x= 555.759| x= 429.629| x= 151.973| x= 132.921| x= 144.361| x= 331.345| x= 475.048| x= 450.587| x= 379.952
-| FITNESS= 46789.7
-| UNFITNESS= 0
-| x= 180.218| x= 518.711| x= 332.605| x= 321.207| x= 374.795| x= 285.034| x= 261.841| x= 523.259| x= 352.323| x= 244.401
-| FITNESS= 51623.2
-| UNFITNESS= 0
-| x= 391.184| x= 483.635| x= 349.568| x= 349.383| x= 213.977| x= 498.393| x= 155.751| x= 170.18| x= 556.22| x= 244.316
-| FITNESS= 48651.8
-| UNFITNESS= 0
-| x= 336.145| x= 318.794| x= 437.07| x= 219.602| x= 268.951| x= 520.495| x= 279.946| x= 490.264| x= 435.571| x= 178.055
-| FITNESS= 55334.7
-| UNFITNESS= 0
-| x= 239.712| x= 622.263| x= 352.531| x= 451.344| x= 247.13| x= 220.78| x= 213.703| x= 399.762| x= 185.038| x= 495.279
-| FITNESS= 49356.8
-| UNFITNESS= 0
-| x= 465.373| x= 589.984| x= 173.348| x= 266.505| x= 250.468| x= 317.908| x= 228.641| x= 298.429| x= 377.978| x= 236.898
-| FITNESS= 38828.8
-| UNFITNESS= 0
-| x= 367.821| x= 203.004| x= 249.07| x= 258.421| x= 245.907| x= 456.258| x= 241.982| x= 416.398| x= 386.856| x= 617.037
-| FITNESS= 56736
-| UNFITNESS= 0
-| x= 423.974| x= 639.572| x= 382.794| x= 228.579| x= 397.421| x= 122.738| x= 365.431| x= 503.228| x= 417.012| x= 479.418
-| FITNESS= 62039.8
-| UNFITNESS= 0
-| x= 351.961| x= 414.989| x= 241.467| x= 401.519| x= 466.844| x= 429.082| x= 193.253| x= 140.703| x= 163.984| x= 500.804
-| FITNESS= 47569.2
-| UNFITNESS= 0
-| x= 209.675| x= 534.808| x= 383.827| x= 337.328| x= 110.501| x= 122.603| x= 262.273| x= 242.922| x= 433.848| x= 586.205
-| FITNESS= 47093.8
-| UNFITNESS= 0
-| x= 206.899| x= 382.404| x= 369.95| x= 469.579| x= 400.721| x= 262.833| x= 524.911| x= 209.26| x= 206.655| x= 410.22
-| FITNESS= 55286.9
-| UNFITNESS= 0
-| x= 485.452| x= 565.934| x= 469.656| x= 177.222| x= 285.562| x= 441.966| x= 517.623| x= 370.686| x= 471.965| x= 623.445
-| FITNESS= 75027.6
-| UNFITNESS= 0
-| x= 229.241| x= 703.69| x= 321.157| x= 492.703| x= 330.011| x= 371.971| x= 549.426| x= 483.442| x= 506.247| x= 455.465
-| FITNESS= 78412
-| UNFITNESS= 0
-| x= 411.596| x= 741.42| x= 482.994| x= 233.93| x= 499.068| x= 388.655| x= 412.91| x= 465.418| x= 488.592| x= 555.07
-| FITNESS= 81099.3
-| UNFITNESS= 0
-| x= 241.997| x= 526.804| x= 287.108| x= 166.956| x= 463.993| x= 514.479| x= 519.479| x= 422.993| x= 323.092| x= 464.154
-| FITNESS= 66325.6
-| UNFITNESS= 8
-| x= 385.667| x= 549.435| x= 315.732| x= 159.045| x= 367.665| x= 135.031| x= 441.512| x= 357.613| x= 514.67| x= 415.979
-| FITNESS= 54338.5
-| UNFITNESS= 0
-| x= 177.439| x= 463.906| x= 303.857| x= 116.612| x= 472.386| x= 295.404| x= 412.858| x= 328.099| x= 200.656| x= 365.3
-| FITNESS= 45038.6
-| UNFITNESS= 0
-| x= 235.224| x= 418.315| x= 96.3492| x= 400.979| x= 365.306| x= 490.704| x= 387.955| x= 325.694| x= 352.677| x= 654.597
-| FITNESS= 62632.2
-| UNFITNESS= 0
-| x= 154.251| x= 235.769| x= 358.763| x= 349.844| x= 209.058| x= 220.223| x= 409.5| x= 538.81| x= 471.5| x= 390.038
-| FITNESS= 56561.9
-| UNFITNESS= 0
-| x= 317.582| x= 661.972| x= 490.071| x= 499.287| x= 510.093| x= 469.758| x= 275.107| x= 365.924| x= 234.926| x= 397.343
-| FITNESS= 70840.8
-| UNFITNESS= 0
-| x= 537.423| x= 450.927| x= 461.298| x= 507.093| x= 191.776| x= 328.866| x= 477.441| x= 468.602| x= 547.58| x= 288.02
-| FITNESS= 71773.8
-| UNFITNESS= 0
-| x= 456.493| x= 723.964| x= 228.707| x= 267.011| x= 359.549| x= 372.828| x= 405.841| x= 211.389| x= 352.95| x= 338.972
-| FITNESS= 51692
-| UNFITNESS= 0
-| x= 410.168| x= 698.171| x= 177.701| x= 353.78| x= 495.118| x= 170.059| x= 293.221| x= 214.954| x= 429.813| x= 454.568
-| FITNESS= 52529.8
-| UNFITNESS= 0
-| x= 419.918| x= 522.391| x= 113.78| x= 334.371| x= 360.81| x= 230.637| x= 132.567| x= 279.697| x= 139.137| x= 619.075
-| FITNESS= 40473.1
-| UNFITNESS= 0
-| x= 387.613| x= 618.107| x= 462.51| x= 492.641| x= 187.014| x= 324.28| x= 344.937| x= 481.468| x= 426.388| x= 639.944
-| FITNESS= 74602.7
-| UNFITNESS= 0
-| x= 195.795| x= 355.796| x= 460.408| x= 251.562| x= 510.247| x= 460.923| x= 339.54| x= 248.025| x= 566.668| x= 220.796
-| FITNESS= 61031
-| UNFITNESS= 0
-| x= 501.242| x= 537.134| x= 391.559| x= 488.929| x= 191.909| x= 248.721| x= 199.726| x= 216.731| x= 420.513| x= 247.591
-| FITNESS= 46324.1
-| UNFITNESS= 7
-| x= 183.468| x= 319.926| x= 487.655| x= 101.893| x= 181.567| x= 174.715| x= 333.217| x= 415.9| x= 552.341| x= 210.126
-| FITNESS= 42772.8
-| UNFITNESS= 0
-| x= 393.117| x= 233.736| x= 254.767| x= 306.983| x= 304.28| x= 253.689| x= 234.563| x= 533.839| x= 393.171| x= 254.782
-| FITNESS= 46606.1
-| UNFITNESS= 15
-| x= 143.928| x= 432.082| x= 431.653| x= 416.188| x= 268.59| x= 575.074| x= 140.157| x= 360.026| x= 226.632| x= 488.91
-| FITNESS= 56968.5
-| UNFITNESS= 0
-| x= 429.908| x= 374.861| x= 463.414| x= 370.853| x= 261.96| x= 142.877| x= 471.316| x= 485.089| x= 453.613| x= 498.915
-| FITNESS= 66258.7
-| UNFITNESS= 0
-| hijo= 0.840188| hijo= 0.242887| hijo= 0.137232| hijo= 0.804177| hijo= 0.156679| hijo= 0.400944| hijo= 0.335223| hijo= 0.108809| hijo= 0.277775| hijo= 0.55397| x= 490.281| x= 328.345| x= 146.774| x= 437.775| x= 179.722| x= 302.831| x= 275.856| x= 174.638| x= 261.665| x= 435.323
-| FITNESS= 38393.8
-| UNFITNESS= 6
+| mem= 0| x= 490.281| x= 411.516| x= 418.685
+| FITNESS= 14508.5
+| mem= 1| x= 472.329| x= 695.494| x= 172.169
+| FITNESS= 9773.31
+| mem= 2| x= 273.146| x= 616.758| x= 205.943
+| FITNESS= 8007.33
+| mem= 3| x= 367.207| x= 457.091| x= 353.755
+| FITNESS= 11785.6
+| mem= 4| x= 285.857| x= 476.857| x= 489.889
+| FITNESS= 15253.8
+| mem= 5| x= 522.964| x= 544.006| x= 390.982
+| FITNESS= 15329.2
+| mem= 6| x= 189.889| x= 528.226| x= 95.8625
+| FITNESS= 3115.27
+| mem= 7| x= 233.441| x= 270.34| x= 427.558
+| FITNESS= 10794.6
+| mem= 8| x= 196.372| x= 415.118| x= 143.642
+| FITNESS= 3354.16
+| mem= 9| x= 175.788| x= 743.41| x= 180.886
+| FITNESS= 7548.56
+| mem= 10| x= 349.561| x= 655.673| x= 346.921
+| FITNESS= 13390
+| mem= 11| x= 256.294| x= 545.016| x= 309.725
+| FITNESS= 10234.8
+| mem= 12| x= 341.241| x= 729.054| x= 212.15
+| FITNESS= 9997.43
+| mem= 13| x= 460.684| x= 484.183| x= 413.134
+| FITNESS= 14772.7
+| mem= 14| x= 301.098| x= 684.45| x= 208.276
+| FITNESS= 9033.75
+| mem= 15| x= 280.557| x= 638.441| x= 475.91
+| FITNESS= 16397.3
+| mem= 16| x= 158.995| x= 716.181| x= 310.444
+| FITNESS= 10995.1
+| mem= 17| x= 166.004| x= 300.525| x= 368.219
+| FITNESS= 8641.85
+| mem= 18| x= 511.8| x= 386.542| x= 116.016
+| FITNESS= 5393.91
+| mem= 19| x= 137.61| x= 446.278| x= 115.563
+| FITNESS= 2583.58
+| mem= 20| x= 231.46| x= 727.878| x= 468.83
+| FITNESS= 16588.3
+| mem= 21| x= 494.896| x= 341.4| x= 316.239
+| FITNESS= 10780.1
+| mem= 22| x= 290.339| x= 612.377| x= 304.777
+| FITNESS= 11100.5
+| mem= 23| x= 416.121| x= 486.852| x= 105.537
+| FITNESS= 5125.84
+| mem= 24| x= 317.184| x= 706.577| x= 480.871
+| FITNESS= 17593.7
+| mem= 25| x= 439.009| x= 351.077| x= 399.923
+| FITNESS= 12828.6
+| mem= 26| x= 404.191| x= 389.373| x= 378.59
+| FITNESS= 12223.3
+| mem= 27| x= 200.369| x= 436.617| x= 459.512
+| FITNESS= 13085.2
+| mem= 28| x= 485.556| x= 376.355| x= 185.396
+| FITNESS= 7110.98
+| mem= 29| x= 513.15| x= 387.348| x= 378.088
+| FITNESS= 13277.6
+| mem= 30| x= 540.281| x= 518.163| x= 365.725
+| FITNESS= 14486.2
+| mem= 31| x= 498.231| x= 436.318| x= 477.991
+| FITNESS= 16615.2
+| mem= 32| x= 300.328| x= 642.307| x= 377.056
+| FITNESS= 13668
+| mem= 33| x= 520.718| x= 459.887| x= 179.862
+| FITNESS= 8131.92
+| mem= 34| x= 537.609| x= 700.15| x= 151.165
+| FITNESS= 9842.54
+| mem= 35| x= 507.857| x= 546.953| x= 270.852
+| FITNESS= 11603.7
+| mem= 36| x= 395.426| x= 349.302| x= 419.907
+| FITNESS= 12974.5
+| mem= 37| x= 261.207| x= 440.421| x= 184.191
+| FITNESS= 5472.01
+| mem= 38| x= 209.639| x= 346.653| x= 323.263
+| FITNESS= 8190.81
+| mem= 39| x= 308.096| x= 288.114| x= 470.764
+| FITNESS= 13015
+| mem= 40| x= 173.364| x= 264.215| x= 297.582
+| FITNESS= 6233.25
+| mem= 41| x= 456.004| x= 735.629| x= 482.637
+| FITNESS= 19325.4
+| mem= 42| x= 423.311| x= 405.37| x= 404.654
+| FITNESS= 13356.4
+| mem= 43| x= 287.525| x= 356.494| x= 186.782
+| FITNESS= 4973.66
+| mem= 44| x= 380.33| x= 329.183| x= 153.156
+| FITNESS= 4619.81
+| mem= 45| x= 443.824| x= 263.886| x= 423.051
+| FITNESS= 12698.6
+| mem= 46| x= 199.564| x= 604.044| x= 120.377
+| FITNESS= 4577.39
+| mem= 47| x= 537.545| x= 223.839| x= 308.578
+| FITNESS= 10484.4
+| mem= 48| x= 204.771| x= 326.794| x= 424.873
+| FITNESS= 10991.8
+| mem= 49| x= 444.041| x= 555.453| x= 496.278
+| FITNESS= 17813.3
+| mem= 50| x= 403.967| x= 612.094| x= 128.355
+| FITNESS= 6941.27
+| mem= 51| x= 187.008| x= 480.595| x= 121.936
+| FITNESS= 3264.11
+| mem= 52| x= 159.06| x= 307.356| x= 283.258
+| FITNESS= 6091.89
+| mem= 53| x= 481.461| x= 509.752| x= 407.1
+| FITNESS= 15055.1
+| mem= 54| x= 151.334| x= 281.636| x= 509.997
+| FITNESS= 12632.9
+| mem= 55| x= 216.861| x= 683.586| x= 141.822
+| FITNESS= 6189.14
+| mem= 56| x= 558.054| x= 224.678| x= 455.497
+| FITNESS= 15088.7
+| mem= 57| x= 160.101| x= 197.285| x= 477.612
+| FITNESS= 12046.5
+| mem= 58| x= 384.374| x= 294.024| x= 157.678
+| FITNESS= 4444.33
+| mem= 59| x= 297.427| x= 696.252| x= 434.092
+| FITNESS= 15889.5
+| mem= 60| x= 283.411| x= 498.314| x= 332.94
+| FITNESS= 10735.5
+| mem= 61| x= 323.608| x= 572.376| x= 130.948
+| FITNESS= 5818.29
+| mem= 62| x= 357.247| x= 610.754| x= 217.108
+| FITNESS= 9123.26
+| mem= 63| x= 555.658| x= 511.757| x= 458.475
+| FITNESS= 17358.4
+| mem= 64| x= 450.558| x= 540.272| x= 103.912
+| FITNESS= 5955.66
+| mem= 65| x= 450.555| x= 652.448| x= 478.584
+| FITNESS= 18317.5
+| mem= 66| x= 504.507| x= 651.24| x= 501.342
+| FITNESS= 19527.7
+| mem= 67| x= 448.839| x= 690.948| x= 503.094
+| FITNESS= 19420.7
+| mem= 68| x= 415.759| x= 467.995| x= 158.031
+| FITNESS= 6508.45
+| mem= 69| x= 485.905| x= 683.033| x= 121.415
+| FITNESS= 8261.82
+| hijo= 0.79844| hijo= 0.394383| hijo= 0.783099| x= 472.329| x= 411.516| x= 418.685
+| FITNESS mejor= 14329
+| mem= 0| cua= 4
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 3
+| mem= 4| cua= 4
+| mem= 5| cua= 4
+| mem= 6| cua= 3
+| mem= 7| cua= 3
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 3
+| mem= 11| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 4
+| mem= 14| cua= 3
+| mem= 15| cua= 4
+| mem= 16| cua= 3
+| mem= 17| cua= 3
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 3
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 3
+| mem= 26| cua= 3
+| mem= 27| cua= 3
+| mem= 28| cua= 3
+| mem= 29| cua= 3
+| mem= 30| cua= 4
+| mem= 31| cua= 4
+| mem= 32| cua= 3
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 3
+| mem= 37| cua= 3
+| mem= 38| cua= 3
+| mem= 39| cua= 3
+| mem= 40| cua= 3
+| mem= 41| cua= 4
+| mem= 42| cua= 1
+| mem= 43| cua= 3
+| mem= 44| cua= 3
+| mem= 45| cua= 3
+| mem= 46| cua= 3
+| mem= 47| cua= 3
+| mem= 48| cua= 3
+| mem= 49| cua= 4
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 3
+| mem= 53| cua= 4
+| mem= 54| cua= 3
+| mem= 55| cua= 3
+| mem= 56| cua= 4
+| mem= 57| cua= 3
+| mem= 58| cua= 3
+| mem= 59| cua= 4
+| mem= 60| cua= 3
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 4
+| mem= 64| cua= 3
+| mem= 65| cua= 4
+| mem= 66| cua= 4
+| mem= 67| cua= 4
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.79844| hijoCopia= 0.394383| hijoCopia= 0.783099
+| hijo= 0.55397| hijo= 0.477397| hijo= 0.628871| x= 367.207| x= 457.091| x= 353.755
+| FITNESS mejor= 11785.6
+| mem= 0| cua= 2
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 3
+| mem= 4| cua= 2
+| mem= 5| cua= 4
+| mem= 6| cua= 3
+| mem= 7| cua= 3
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 4
+| mem= 11| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 2
+| mem= 14| cua= 3
+| mem= 15| cua= 4
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 2
+| mem= 26| cua= 2
+| mem= 27| cua= 2
+| mem= 28| cua= 3
+| mem= 29| cua= 2
+| mem= 30| cua= 4
+| mem= 31| cua= 2
+| mem= 32| cua= 4
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 2
+| mem= 37| cua= 3
+| mem= 38| cua= 1
+| mem= 39| cua= 4
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 2
+| mem= 43| cua= 3
+| mem= 44| cua= 3
+| mem= 45| cua= 4
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 4
+| mem= 54| cua= 4
+| mem= 55| cua= 3
+| mem= 56| cua= 4
+| mem= 57| cua= 4
+| mem= 58| cua= 3
+| mem= 59| cua= 4
+| mem= 60| cua= 3
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 4
+| mem= 66| cua= 4
+| mem= 67| cua= 4
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.55397| hijoCopia= 0.477397| hijoCopia= 0.628871
+| hijo= 0.364784| hijo= 0.513401| hijo= 0.95223| x= 285.857| x= 476.857| x= 489.889
+| FITNESS mejor= 15253.8
+| mem= 0| cua= 1
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 3
+| mem= 4| cua= 3
+| mem= 5| cua= 4
+| mem= 6| cua= 3
+| mem= 7| cua= 3
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 3
+| mem= 11| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 3
+| mem= 14| cua= 3
+| mem= 15| cua= 4
+| mem= 16| cua= 3
+| mem= 17| cua= 3
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 3
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 3
+| mem= 26| cua= 1
+| mem= 27| cua= 3
+| mem= 28| cua= 3
+| mem= 29| cua= 1
+| mem= 30| cua= 3
+| mem= 31| cua= 4
+| mem= 32| cua= 3
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 3
+| mem= 37| cua= 3
+| mem= 38| cua= 3
+| mem= 39| cua= 3
+| mem= 40| cua= 3
+| mem= 41| cua= 4
+| mem= 42| cua= 1
+| mem= 43| cua= 3
+| mem= 44| cua= 3
+| mem= 45| cua= 3
+| mem= 46| cua= 3
+| mem= 47| cua= 3
+| mem= 48| cua= 3
+| mem= 49| cua= 4
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 3
+| mem= 53| cua= 3
+| mem= 54| cua= 3
+| mem= 55| cua= 3
+| mem= 56| cua= 3
+| mem= 57| cua= 3
+| mem= 58| cua= 3
+| mem= 59| cua= 4
+| mem= 60| cua= 3
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 4
+| mem= 64| cua= 3
+| mem= 65| cua= 4
+| mem= 66| cua= 4
+| mem= 67| cua= 4
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.364784| hijoCopia= 0.513401| hijoCopia= 0.95223
+| hijo= 0.156679| hijo= 0.137232| hijo= 0.12979| x= 196.372| x= 270.34| x= 143.642
+| FITNESS mejor= 1906.38
 | mem= 0| cua= 2
 | mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 4
-| mem= 5| cua= 3
+| mem= 2| cua= 4
+| mem= 3| cua= 2
+| mem= 4| cua= 2
+| mem= 5| cua= 4
 | mem= 6| cua= 4
 | mem= 7| cua= 4
 | mem= 8| cua= 4
@@ -224,46 +372,46 @@
 | mem= 10| cua= 4
 | mem= 11| cua= 4
 | mem= 12| cua= 4
-| mem= 13| cua= 4
+| mem= 13| cua= 2
 | mem= 14| cua= 4
-| mem= 15| cua= 3
+| mem= 15| cua= 4
 | mem= 16| cua= 4
-| mem= 17| cua= 4
+| mem= 17| cua= 2
 | mem= 18| cua= 4
 | mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 4
+| mem= 20| cua= 4
+| mem= 21| cua= 2
 | mem= 22| cua= 4
 | mem= 23| cua= 4
 | mem= 24| cua= 4
-| mem= 25| cua= 4
+| mem= 25| cua= 2
 | mem= 26| cua= 2
 | mem= 27| cua= 2
 | mem= 28| cua= 4
-| mem= 29| cua= 4
+| mem= 29| cua= 2
 | mem= 30| cua= 4
-| mem= 31| cua= 4
+| mem= 31| cua= 2
 | mem= 32| cua= 4
 | mem= 33| cua= 4
 | mem= 34| cua= 4
 | mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 4
+| mem= 36| cua= 2
+| mem= 37| cua= 4
+| mem= 38| cua= 2
 | mem= 39| cua= 4
-| mem= 40| cua= 4
+| mem= 40| cua= 2
 | mem= 41| cua= 4
-| mem= 42| cua= 4
+| mem= 42| cua= 2
 | mem= 43| cua= 4
 | mem= 44| cua= 4
 | mem= 45| cua= 4
 | mem= 46| cua= 4
-| mem= 47| cua= 4
-| mem= 48| cua= 4
-| mem= 49| cua= 4
+| mem= 47| cua= 2
+| mem= 48| cua= 2
+| mem= 49| cua= 2
 | mem= 50| cua= 4
 | mem= 51| cua= 4
-| mem= 52| cua= 4
+| mem= 52| cua= 2
 | mem= 53| cua= 2
 | mem= 54| cua= 4
 | mem= 55| cua= 4
@@ -274,2009 +422,1618 @@
 | mem= 60| cua= 4
 | mem= 61| cua= 4
 | mem= 62| cua= 4
-| mem= 63| cua= 4
+| mem= 63| cua= 2
 | mem= 64| cua= 4
-| mem= 65| cua= 2
+| mem= 65| cua= 4
 | mem= 66| cua= 4
-| mem= 67| cua= 2
+| mem= 67| cua= 4
 | mem= 68| cua= 4
 | mem= 69| cua= 4
-
-| hijo= 0.512932| hijo= 0.0860558| hijo= 0.192214| hijo= 0.296032| hijo= 0.637552| hijo= 0.348893| hijo= 0.0641713| hijo= 0.972775| hijo= 0.457702| hijo= 0.771358| x= 349.561| x= 242.245| x= 169.922| x= 221.813| x= 393.711| x= 279.095| x= 153.07| x= 560.83| x= 343.712| x= 543.365
-| FITNESS= 49968.7
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 2
-| mem= 24| cua= 3
-| mem= 25| cua= 4
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 2
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 4
-| mem= 41| cua= 3
-| mem= 42| cua= 4
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 4
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 4
-| mem= 61| cua= 4
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.23828| hijo= 0.970634| hijo= 0.902208| hijo= 0.931835| hijo= 0.266666| hijo= 0.53976| hijo= 0.375207| hijo= 0.738534| hijo= 0.512535| hijo= 0.667724| x= 231.46| x= 727.878| x= 468.83| x= 492.03| x= 228.666| x= 366.131| x= 293.969| x= 456.125| x= 368.716| x= 491.859
-| FITNESS= 68353.1
-| UNFITNESS= 8
-| mem= 0| cua= 3
+| hijoCopia= 0.156679| hijoCopia= 0.137232| hijoCopia= 0.12979
+| hijo= 0.364784| hijo= 0.839112| hijo= 0.95223| x= 285.857| x= 655.673| x= 489.889
+| FITNESS mejor= 17042
+| mem= 0| cua= 1
 | mem= 1| cua= 3
 | mem= 2| cua= 3
-| mem= 3| cua= 3
-| mem= 4| cua= 3
-| mem= 5| cua= 3
+| mem= 3| cua= 1
+| mem= 4| cua= 1
+| mem= 5| cua= 1
 | mem= 6| cua= 3
-| mem= 7| cua= 3
+| mem= 7| cua= 1
 | mem= 8| cua= 3
-| mem= 9| cua= 4
+| mem= 9| cua= 3
 | mem= 10| cua= 3
 | mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 1
 | mem= 14| cua= 3
-| mem= 15| cua= 3
+| mem= 15| cua= 1
 | mem= 16| cua= 3
-| mem= 17| cua= 3
+| mem= 17| cua= 1
 | mem= 18| cua= 3
-| mem= 19| cua= 4
-| mem= 20| cua= 4
-| mem= 21| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 3
+| mem= 21| cua= 1
 | mem= 22| cua= 3
 | mem= 23| cua= 3
-| mem= 24| cua= 3
-| mem= 25| cua= 3
-| mem= 26| cua= 3
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 4
-| mem= 30| cua= 3
-| mem= 31| cua= 3
-| mem= 32| cua= 3
-| mem= 33| cua= 3
-| mem= 34| cua= 3
-| mem= 35| cua= 3
-| mem= 36| cua= 3
-| mem= 37| cua= 1
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 3
-| mem= 46| cua= 3
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 3
-| mem= 54| cua= 3
-| mem= 55| cua= 3
-| mem= 56| cua= 3
-| mem= 57| cua= 3
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 3
-| mem= 61| cua= 3
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 3
-| mem= 65| cua= 3
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 3
-| mem= 69| cua= 3
-
-| hijo= 0.956468| hijo= 0.165974| hijo= 0.440105| hijo= 0.858676| hijo= 0.829201| hijo= 0.92397| hijo= 0.228968| hijo= 0.893372| hijo= 0.35036| hijo= 0.68667| x= 540.281| x= 286.12| x= 274.284| x= 460.937| x= 478.994| x= 541.33| x= 227.723| x= 525.337| x= 294.764| x= 501.275
-| FITNESS= 71173.4
-| UNFITNESS= 0
-| mem= 0| cua= 1
-| mem= 1| cua= 3
-| mem= 2| cua= 3
-| mem= 3| cua= 3
-| mem= 4| cua= 1
-| mem= 5| cua= 3
-| mem= 6| cua= 3
-| mem= 7| cua= 3
-| mem= 8| cua= 3
-| mem= 9| cua= 4
-| mem= 10| cua= 1
-| mem= 11| cua= 3
-| mem= 12| cua= 3
-| mem= 13| cua= 3
-| mem= 14| cua= 3
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 3
-| mem= 18| cua= 3
-| mem= 19| cua= 4
-| mem= 20| cua= 1
-| mem= 21| cua= 3
-| mem= 22| cua= 1
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 3
-| mem= 29| cua= 2
-| mem= 30| cua= 3
-| mem= 31| cua= 1
-| mem= 32| cua= 3
-| mem= 33| cua= 3
-| mem= 34| cua= 3
-| mem= 35| cua= 3
-| mem= 36| cua= 3
-| mem= 37| cua= 1
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 3
-| mem= 46| cua= 3
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 1
-| mem= 54| cua= 3
-| mem= 55| cua= 3
-| mem= 56| cua= 3
-| mem= 57| cua= 3
-| mem= 58| cua= 3
-| mem= 59| cua= 4
-| mem= 60| cua= 3
-| mem= 61| cua= 3
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 3
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 3
-| mem= 69| cua= 3
-
-| hijo= 0.786002| hijo= 0.307458| hijo= 0.447034| hijo= 0.760475| hijo= 0.984752| hijo= 0.276235| hijo= 0.684445| hijo= 0.383188| hijo= 0.749771| hijo= 0.368664| x= 466.981| x= 363.794| x= 277.201| x= 419.202| x= 548.214| x= 245.963| x= 434.054| x= 297.285| x= 476.896| x= 343.226
-| FITNESS= 63339
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 3
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 3
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 3
-| mem= 18| cua= 3
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 1
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 1
-| mem= 32| cua= 3
-| mem= 33| cua= 3
-| mem= 34| cua= 3
-| mem= 35| cua= 3
-| mem= 36| cua= 3
-| mem= 37| cua= 1
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 3
-| mem= 46| cua= 3
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 3
-| mem= 55| cua= 3
-| mem= 56| cua= 3
-| mem= 57| cua= 3
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 3
-| mem= 61| cua= 3
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 3
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 3
-| mem= 69| cua= 4
-
-| hijo= 0.639458| hijo= 0.759735| hijo= 0.0934805| hijo= 0.134902| hijo= 0.52021| hijo= 0.240062| hijo= 0.0699064| hijo= 0.204655| hijo= 0.656564| hijo= 0.819677| x= 403.967| x= 612.094| x= 128.355| x= 153.334| x= 341.493| x= 229.468| x= 155.668| x= 217.481| x= 434.393| x= 567.38
-| FITNESS= 40757.8
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 4
-| mem= 12| cua= 4
-| mem= 13| cua= 4
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 2
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 4
-| mem= 22| cua= 2
-| mem= 23| cua= 2
 | mem= 24| cua= 4
-| mem= 25| cua= 4
-| mem= 26| cua= 2
-| mem= 27| cua= 2
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 2
-| mem= 32| cua= 4
-| mem= 33| cua= 4
-| mem= 34| cua= 4
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 4
-| mem= 39| cua= 4
-| mem= 40| cua= 4
-| mem= 41| cua= 4
-| mem= 42| cua= 4
-| mem= 43| cua= 4
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 4
-| mem= 48| cua= 4
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 4
-| mem= 55| cua= 4
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 4
-| mem= 61| cua= 4
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 2
-| mem= 66| cua= 4
-| mem= 67| cua= 2
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.87054| hijo= 0.755581| hijo= 0.00416161| hijo= 0.157807| hijo= 0.593892| hijo= 0.180372| hijo= 0.163132| hijo= 0.39169| hijo= 0.997799| hijo= 0.819695| x= 503.332| x= 609.814| x= 90.752| x= 163.068| x= 374.282| x= 202.25| x= 197.899| x= 301.086| x= 589.996| x= 567.388
-| FITNESS= 49938
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 2
-| mem= 24| cua= 3
-| mem= 25| cua= 4
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 2
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 4
-| mem= 41| cua= 3
-| mem= 42| cua= 4
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 4
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 4
-| mem= 61| cua= 4
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.979434| hijo= 0.743811| hijo= 0.903366| hijo= 0.983596| hijo= 0.0354209| hijo= 0.497259| hijo= 0.833239| hijo= 0.925377| hijo= 0.888949| hijo= 0.0769947| x= 550.157| x= 603.352| x= 469.317| x= 514.028| x= 125.762| x= 346.75| x= 501.457| x= 539.643| x= 540.361| x= 198.266
-| FITNESS= 72372.6
-| UNFITNESS= 0
-| mem= 0| cua= 1
-| mem= 1| cua= 3
-| mem= 2| cua= 3
-| mem= 3| cua= 3
-| mem= 4| cua= 1
-| mem= 5| cua= 3
-| mem= 6| cua= 3
-| mem= 7| cua= 3
-| mem= 8| cua= 3
-| mem= 9| cua= 4
-| mem= 10| cua= 1
-| mem= 11| cua= 3
-| mem= 12| cua= 3
-| mem= 13| cua= 3
-| mem= 14| cua= 3
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 3
-| mem= 18| cua= 3
-| mem= 19| cua= 4
-| mem= 20| cua= 1
-| mem= 21| cua= 3
-| mem= 22| cua= 1
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
+| mem= 25| cua= 1
 | mem= 26| cua= 1
 | mem= 27| cua= 1
 | mem= 28| cua= 3
-| mem= 29| cua= 2
-| mem= 30| cua= 3
+| mem= 29| cua= 1
+| mem= 30| cua= 1
 | mem= 31| cua= 1
 | mem= 32| cua= 3
 | mem= 33| cua= 3
 | mem= 34| cua= 3
 | mem= 35| cua= 3
-| mem= 36| cua= 3
-| mem= 37| cua= 1
-| mem= 38| cua= 3
+| mem= 36| cua= 1
+| mem= 37| cua= 3
+| mem= 38| cua= 1
 | mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 1
 | mem= 43| cua= 3
 | mem= 44| cua= 3
-| mem= 45| cua= 3
+| mem= 45| cua= 1
 | mem= 46| cua= 3
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
 | mem= 53| cua= 1
 | mem= 54| cua= 3
 | mem= 55| cua= 3
 | mem= 56| cua= 3
 | mem= 57| cua= 3
-| mem= 58| cua= 3
+| mem= 58| cua= 1
 | mem= 59| cua= 3
 | mem= 60| cua= 3
 | mem= 61| cua= 3
 | mem= 62| cua= 3
-| mem= 63| cua= 4
+| mem= 63| cua= 2
 | mem= 64| cua= 3
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
+| mem= 65| cua= 4
+| mem= 66| cua= 2
+| mem= 67| cua= 4
 | mem= 68| cua= 3
 | mem= 69| cua= 3
-
-| hijo= 0.223656| hijo= 0.248044| hijo= 0.510686| hijo= 0.971466| hijo= 0.70062| hijo= 0.546107| hijo= 0.328777| hijo= 0.113281| hijo= 0.471483| hijo= 0.633072| x= 225.172| x= 331.176| x= 303.999| x= 508.873| x= 421.776| x= 369.025| x= 272.936| x= 176.636| x= 349.996| x= 474.637
-| FITNESS= 55669.8
-| UNFITNESS= 0
+| hijoCopia= 0.364784| hijoCopia= 0.839112| hijoCopia= 0.95223
+| hijo= 0.493583| hijo= 0.637552| hijo= 0.524287| x= 341.241| x= 545.016| x= 309.725
+| FITNESS mejor= 11084.3
 | mem= 0| cua= 2
-| mem= 1| cua= 4
+| mem= 1| cua= 3
 | mem= 2| cua= 3
-| mem= 3| cua= 4
+| mem= 3| cua= 2
 | mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 3
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 1
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 1
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 3
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 3
-| mem= 61| cua= 3
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.944318| hijo= 0.450918| hijo= 0.336351| hijo= 0.847684| hijo= 0.434513| hijo= 0.00323146| hijo= 0.344943| hijo= 0.0408643| hijo= 0.413984| hijo= 0.695984| x= 535.057| x= 442.554| x= 230.604| x= 456.266| x= 303.358| x= 121.474| x= 280.259| x= 144.266| x= 323.777| x= 505.904
-| FITNESS= 45334.9
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 4
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 2
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 2
-| mem= 24| cua= 4
-| mem= 25| cua= 4
-| mem= 26| cua= 2
-| mem= 27| cua= 2
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 2
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 4
-| mem= 39| cua= 4
-| mem= 40| cua= 4
-| mem= 41| cua= 4
-| mem= 42| cua= 4
-| mem= 43| cua= 4
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 4
-| mem= 48| cua= 4
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 4
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 4
-| mem= 61| cua= 4
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 2
-| mem= 66| cua= 3
-| mem= 67| cua= 2
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.673936| hijo= 0.63764| hijo= 0.57669| hijo= 0.593211| hijo= 0.666557| hijo= 0.627158| hijo= 0.730729| hijo= 0.288379| hijo= 0.329642| hijo= 0.189751| x= 418.793| x= 545.064| x= 331.787| x= 348.115| x= 406.618| x= 405.984| x= 455.02| x= 254.906| x= 285.317| x= 254.306
-| FITNESS= 55670.1
-| UNFITNESS= 8
-| mem= 0| cua= 4
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 4
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
+| mem= 5| cua= 2
+| mem= 6| cua= 3
+| mem= 7| cua= 1
+| mem= 8| cua= 3
+| mem= 9| cua= 3
 | mem= 10| cua= 4
 | mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 2
+| mem= 14| cua= 3
+| mem= 15| cua= 2
 | mem= 16| cua= 3
-| mem= 17| cua= 3
-| mem= 18| cua= 4
-| mem= 19| cua= 4
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
 | mem= 20| cua= 4
-| mem= 21| cua= 3
+| mem= 21| cua= 1
 | mem= 22| cua= 4
 | mem= 23| cua= 3
-| mem= 24| cua= 3
-| mem= 25| cua= 3
-| mem= 26| cua= 3
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 4
-| mem= 30| cua= 4
-| mem= 31| cua= 3
-| mem= 32| cua= 3
-| mem= 33| cua= 4
+| mem= 24| cua= 2
+| mem= 25| cua= 2
+| mem= 26| cua= 2
+| mem= 27| cua= 2
+| mem= 28| cua= 1
+| mem= 29| cua= 2
+| mem= 30| cua= 2
+| mem= 31| cua= 2
+| mem= 32| cua= 4
+| mem= 33| cua= 3
 | mem= 34| cua= 3
 | mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 1
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 4
-| mem= 54| cua= 3
+| mem= 36| cua= 2
+| mem= 37| cua= 3
+| mem= 38| cua= 1
+| mem= 39| cua= 2
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 2
+| mem= 43| cua= 1
+| mem= 44| cua= 1
+| mem= 45| cua= 2
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 2
+| mem= 54| cua= 2
 | mem= 55| cua= 3
-| mem= 56| cua= 4
+| mem= 56| cua= 2
 | mem= 57| cua= 4
-| mem= 58| cua= 4
+| mem= 58| cua= 1
 | mem= 59| cua= 4
-| mem= 60| cua= 3
+| mem= 60| cua= 1
 | mem= 61| cua= 3
 | mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 3
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.121143| hijo= 0.685786| hijo= 0.383832| hijo= 0.774274| hijo= 0.943051| hijo= 0.916273| hijo= 0.861917| hijo= 0.91893| hijo= 0.793657| hijo= 0.548042| x= 181.092| x= 571.496| x= 250.593| x= 425.066| x= 529.658| x= 537.82| x= 514.448| x= 536.762| x= 496.908| x= 432.377
-| FITNESS= 83004.9
-| UNFITNESS= 1
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 2
+| mem= 66| cua= 2
+| mem= 67| cua= 2
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.493583| hijoCopia= 0.637552| hijoCopia= 0.524287
+| hijo= 0.771358| hijo= 0.526745| hijo= 0.769914| x= 460.684| x= 484.183| x= 413.134
+| FITNESS mejor= 14772.7
 | mem= 0| cua= 1
 | mem= 1| cua= 3
 | mem= 2| cua= 3
 | mem= 3| cua= 3
-| mem= 4| cua= 3
+| mem= 4| cua= 2
+| mem= 5| cua= 4
+| mem= 6| cua= 3
+| mem= 7| cua= 3
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 3
+| mem= 11| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 3
+| mem= 14| cua= 3
+| mem= 15| cua= 4
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 1
+| mem= 26| cua= 1
+| mem= 27| cua= 1
+| mem= 28| cua= 3
+| mem= 29| cua= 1
+| mem= 30| cua= 3
+| mem= 31| cua= 2
+| mem= 32| cua= 3
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 1
+| mem= 37| cua= 3
+| mem= 38| cua= 1
+| mem= 39| cua= 3
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 1
+| mem= 43| cua= 3
+| mem= 44| cua= 3
+| mem= 45| cua= 3
+| mem= 46| cua= 3
+| mem= 47| cua= 3
+| mem= 48| cua= 3
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 4
+| mem= 54| cua= 3
+| mem= 55| cua= 3
+| mem= 56| cua= 4
+| mem= 57| cua= 3
+| mem= 58| cua= 3
+| mem= 59| cua= 4
+| mem= 60| cua= 3
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 4
+| mem= 66| cua= 4
+| mem= 67| cua= 4
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.771358| hijoCopia= 0.526745| hijoCopia= 0.769914
+| hijo= 0.0860558| hijo= 0.807725| hijo= 0.663227| x= 166.004| x= 638.441| x= 368.219
+| FITNESS mejor= 12021
+| mem= 0| cua= 2
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 1
+| mem= 4| cua= 2
+| mem= 5| cua= 2
+| mem= 6| cua= 3
+| mem= 7| cua= 1
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 4
+| mem= 11| cua= 1
+| mem= 12| cua= 3
+| mem= 13| cua= 2
+| mem= 14| cua= 3
+| mem= 15| cua= 2
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 2
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 2
+| mem= 25| cua= 2
+| mem= 26| cua= 2
+| mem= 27| cua= 2
+| mem= 28| cua= 1
+| mem= 29| cua= 2
+| mem= 30| cua= 2
+| mem= 31| cua= 2
+| mem= 32| cua= 2
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 2
+| mem= 37| cua= 1
+| mem= 38| cua= 1
+| mem= 39| cua= 2
+| mem= 40| cua= 1
+| mem= 41| cua= 2
+| mem= 42| cua= 2
+| mem= 43| cua= 1
+| mem= 44| cua= 1
+| mem= 45| cua= 2
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 2
+| mem= 54| cua= 2
+| mem= 55| cua= 3
+| mem= 56| cua= 2
+| mem= 57| cua= 4
+| mem= 58| cua= 1
+| mem= 59| cua= 2
+| mem= 60| cua= 1
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 2
+| mem= 66| cua= 2
+| mem= 67| cua= 2
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.0860558| hijoCopia= 0.807725| hijoCopia= 0.663227
+| hijo= 0.890233| hijo= 0.457702| hijo= 0.0630958| x= 511.8| x= 446.278| x= 115.563
+| FITNESS mejor= 5977.68
+| mem= 0| cua= 2
+| mem= 1| cua= 4
+| mem= 2| cua= 4
+| mem= 3| cua= 2
+| mem= 4| cua= 2
+| mem= 5| cua= 2
+| mem= 6| cua= 3
+| mem= 7| cua= 2
+| mem= 8| cua= 1
+| mem= 9| cua= 4
+| mem= 10| cua= 2
+| mem= 11| cua= 2
+| mem= 12| cua= 4
+| mem= 13| cua= 2
+| mem= 14| cua= 4
+| mem= 15| cua= 2
+| mem= 16| cua= 4
+| mem= 17| cua= 2
+| mem= 18| cua= 1
+| mem= 19| cua= 3
+| mem= 20| cua= 2
+| mem= 21| cua= 2
+| mem= 22| cua= 2
+| mem= 23| cua= 3
+| mem= 24| cua= 2
+| mem= 25| cua= 2
+| mem= 26| cua= 2
+| mem= 27| cua= 2
+| mem= 28| cua= 2
+| mem= 29| cua= 2
+| mem= 30| cua= 2
+| mem= 31| cua= 2
+| mem= 32| cua= 2
+| mem= 33| cua= 2
+| mem= 34| cua= 4
+| mem= 35| cua= 2
+| mem= 36| cua= 2
+| mem= 37| cua= 1
+| mem= 38| cua= 2
+| mem= 39| cua= 2
+| mem= 40| cua= 2
+| mem= 41| cua= 2
+| mem= 42| cua= 2
+| mem= 43| cua= 1
+| mem= 44| cua= 1
+| mem= 45| cua= 2
+| mem= 46| cua= 3
+| mem= 47| cua= 2
+| mem= 48| cua= 2
+| mem= 49| cua= 2
+| mem= 50| cua= 4
+| mem= 51| cua= 3
+| mem= 52| cua= 2
+| mem= 53| cua= 2
+| mem= 54| cua= 2
+| mem= 55| cua= 4
+| mem= 56| cua= 2
+| mem= 57| cua= 2
+| mem= 58| cua= 1
+| mem= 59| cua= 2
+| mem= 60| cua= 2
+| mem= 61| cua= 3
+| mem= 62| cua= 4
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 2
+| mem= 66| cua= 2
+| mem= 67| cua= 2
+| mem= 68| cua= 2
+| mem= 69| cua= 4
+| hijoCopia= 0.890233| hijoCopia= 0.457702| hijoCopia= 0.0630958
+| hijo= 0.85092| hijo= 0.266666| hijo= 0.95223| x= 494.896| x= 341.4| x= 489.889
+| FITNESS mejor= 15989.6
+| mem= 0| cua= 1
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 1
+| mem= 4| cua= 1
 | mem= 5| cua= 3
 | mem= 6| cua= 3
 | mem= 7| cua= 3
 | mem= 8| cua= 3
 | mem= 9| cua= 3
-| mem= 10| cua= 1
+| mem= 10| cua= 3
 | mem= 11| cua= 3
 | mem= 12| cua= 3
-| mem= 13| cua= 3
+| mem= 13| cua= 1
 | mem= 14| cua= 3
-| mem= 15| cua= 3
-| mem= 16| cua= 1
+| mem= 15| cua= 4
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 1
+| mem= 26| cua= 1
+| mem= 27| cua= 1
+| mem= 28| cua= 3
+| mem= 29| cua= 1
+| mem= 30| cua= 3
+| mem= 31| cua= 2
+| mem= 32| cua= 3
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 1
+| mem= 37| cua= 3
+| mem= 38| cua= 1
+| mem= 39| cua= 3
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 1
+| mem= 43| cua= 3
+| mem= 44| cua= 3
+| mem= 45| cua= 3
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 1
+| mem= 54| cua= 3
+| mem= 55| cua= 3
+| mem= 56| cua= 3
+| mem= 57| cua= 3
+| mem= 58| cua= 1
+| mem= 59| cua= 3
+| mem= 60| cua= 3
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 4
+| mem= 66| cua= 2
+| mem= 67| cua= 4
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.85092| hijoCopia= 0.266666| hijoCopia= 0.95223
+| hijo= 0.720952| hijo= 0.284293| hijo= 0.93081| x= 439.009| x= 351.077| x= 480.871
+| FITNESS mejor= 15257
+| mem= 0| cua= 1
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 1
+| mem= 4| cua= 1
+| mem= 5| cua= 4
+| mem= 6| cua= 3
+| mem= 7| cua= 3
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 3
+| mem= 11| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 1
+| mem= 14| cua= 3
+| mem= 15| cua= 4
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 1
+| mem= 26| cua= 1
+| mem= 27| cua= 1
+| mem= 28| cua= 3
+| mem= 29| cua= 1
+| mem= 30| cua= 3
+| mem= 31| cua= 2
+| mem= 32| cua= 3
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 1
+| mem= 37| cua= 3
+| mem= 38| cua= 1
+| mem= 39| cua= 3
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 1
+| mem= 43| cua= 3
+| mem= 44| cua= 3
+| mem= 45| cua= 3
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 1
+| mem= 54| cua= 3
+| mem= 55| cua= 3
+| mem= 56| cua= 3
+| mem= 57| cua= 3
+| mem= 58| cua= 3
+| mem= 59| cua= 4
+| mem= 60| cua= 3
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 4
+| mem= 66| cua= 4
+| mem= 67| cua= 4
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.720952| hijoCopia= 0.284293| hijoCopia= 0.93081
+| hijo= 0.858676| hijo= 0.58864| hijo= 0.657304| x= 498.231| x= 518.163| x= 365.725
+| FITNESS mejor= 14065.7
+| mem= 0| cua= 2
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 1
+| mem= 4| cua= 2
+| mem= 5| cua= 4
+| mem= 6| cua= 3
+| mem= 7| cua= 3
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 3
+| mem= 11| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 2
+| mem= 14| cua= 3
+| mem= 15| cua= 4
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 1
+| mem= 26| cua= 1
+| mem= 27| cua= 1
+| mem= 28| cua= 3
+| mem= 29| cua= 1
+| mem= 30| cua= 4
+| mem= 31| cua= 2
+| mem= 32| cua= 3
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 1
+| mem= 37| cua= 3
+| mem= 38| cua= 1
+| mem= 39| cua= 3
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 1
+| mem= 43| cua= 3
+| mem= 44| cua= 3
+| mem= 45| cua= 3
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 2
+| mem= 54| cua= 3
+| mem= 55| cua= 3
+| mem= 56| cua= 4
+| mem= 57| cua= 3
+| mem= 58| cua= 1
+| mem= 59| cua= 4
+| mem= 60| cua= 3
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 4
+| mem= 66| cua= 2
+| mem= 67| cua= 4
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.858676| hijoCopia= 0.58864| hijoCopia= 0.657304
+| hijo= 0.910972| hijo= 0.920128| hijo= 0.14766| x= 520.718| x= 700.15| x= 151.165
+| FITNESS mejor= 9673.63
+| mem= 0| cua= 2
+| mem= 1| cua= 2
+| mem= 2| cua= 1
+| mem= 3| cua= 2
+| mem= 4| cua= 2
+| mem= 5| cua= 2
+| mem= 6| cua= 1
+| mem= 7| cua= 2
+| mem= 8| cua= 1
+| mem= 9| cua= 3
+| mem= 10| cua= 2
+| mem= 11| cua= 2
+| mem= 12| cua= 2
+| mem= 13| cua= 2
+| mem= 14| cua= 1
+| mem= 15| cua= 2
+| mem= 16| cua= 2
+| mem= 17| cua= 1
+| mem= 18| cua= 1
+| mem= 19| cua= 1
+| mem= 20| cua= 2
+| mem= 21| cua= 2
+| mem= 22| cua= 2
+| mem= 23| cua= 1
+| mem= 24| cua= 2
+| mem= 25| cua= 2
+| mem= 26| cua= 2
+| mem= 27| cua= 2
+| mem= 28| cua= 1
+| mem= 29| cua= 2
+| mem= 30| cua= 2
+| mem= 31| cua= 2
+| mem= 32| cua= 2
+| mem= 33| cua= 1
+| mem= 34| cua= 4
+| mem= 35| cua= 2
+| mem= 36| cua= 2
+| mem= 37| cua= 1
+| mem= 38| cua= 1
+| mem= 39| cua= 2
+| mem= 40| cua= 1
+| mem= 41| cua= 2
+| mem= 42| cua= 2
+| mem= 43| cua= 1
+| mem= 44| cua= 1
+| mem= 45| cua= 2
+| mem= 46| cua= 1
+| mem= 47| cua= 2
+| mem= 48| cua= 2
+| mem= 49| cua= 2
+| mem= 50| cua= 1
+| mem= 51| cua= 1
+| mem= 52| cua= 1
+| mem= 53| cua= 2
+| mem= 54| cua= 2
+| mem= 55| cua= 1
+| mem= 56| cua= 2
+| mem= 57| cua= 2
+| mem= 58| cua= 1
+| mem= 59| cua= 2
+| mem= 60| cua= 2
+| mem= 61| cua= 1
+| mem= 62| cua= 1
+| mem= 63| cua= 2
+| mem= 64| cua= 1
+| mem= 65| cua= 2
+| mem= 66| cua= 2
+| mem= 67| cua= 2
+| mem= 68| cua= 1
+| mem= 69| cua= 3
+| hijoCopia= 0.910972| hijoCopia= 0.920128| hijoCopia= 0.14766
+| hijo= 0.619596| hijo= 0.281059| hijo= 0.431953| x= 395.426| x= 349.302| x= 270.852
+| FITNESS mejor= 8502.85
+| mem= 0| cua= 2
+| mem= 1| cua= 4
+| mem= 2| cua= 3
+| mem= 3| cua= 4
+| mem= 4| cua= 2
+| mem= 5| cua= 4
+| mem= 6| cua= 3
+| mem= 7| cua= 4
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 4
+| mem= 11| cua= 4
+| mem= 12| cua= 4
+| mem= 13| cua= 2
+| mem= 14| cua= 4
+| mem= 15| cua= 4
+| mem= 16| cua= 4
+| mem= 17| cua= 2
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 2
+| mem= 22| cua= 4
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 2
+| mem= 26| cua= 2
+| mem= 27| cua= 2
+| mem= 28| cua= 3
+| mem= 29| cua= 2
+| mem= 30| cua= 4
+| mem= 31| cua= 2
+| mem= 32| cua= 4
+| mem= 33| cua= 3
+| mem= 34| cua= 4
+| mem= 35| cua= 4
+| mem= 36| cua= 2
+| mem= 37| cua= 3
+| mem= 38| cua= 1
+| mem= 39| cua= 4
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 2
+| mem= 43| cua= 3
+| mem= 44| cua= 3
+| mem= 45| cua= 4
+| mem= 46| cua= 3
+| mem= 47| cua= 4
+| mem= 48| cua= 4
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 4
+| mem= 54| cua= 4
+| mem= 55| cua= 3
+| mem= 56| cua= 4
+| mem= 57| cua= 4
+| mem= 58| cua= 3
+| mem= 59| cua= 4
+| mem= 60| cua= 4
+| mem= 61| cua= 3
+| mem= 62| cua= 4
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 4
+| mem= 66| cua= 4
+| mem= 67| cua= 4
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.619596| hijoCopia= 0.281059| hijoCopia= 0.431953
+| hijo= 0.416501| hijo= 0.447034| hijo= 0.906804| x= 308.096| x= 440.421| x= 470.764
+| FITNESS mejor= 14538.1
+| mem= 0| cua= 1
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 3
+| mem= 4| cua= 2
+| mem= 5| cua= 4
+| mem= 6| cua= 3
+| mem= 7| cua= 3
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 3
+| mem= 11| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 4
+| mem= 14| cua= 3
+| mem= 15| cua= 4
+| mem= 16| cua= 3
 | mem= 17| cua= 3
 | mem= 18| cua= 3
 | mem= 19| cua= 3
-| mem= 20| cua= 1
-| mem= 21| cua= 3
-| mem= 22| cua= 1
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 3
-| mem= 29| cua= 3
-| mem= 30| cua= 3
-| mem= 31| cua= 1
-| mem= 32| cua= 3
-| mem= 33| cua= 3
-| mem= 34| cua= 3
-| mem= 35| cua= 3
-| mem= 36| cua= 3
-| mem= 37| cua= 1
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 3
-| mem= 46| cua= 3
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 3
-| mem= 51| cua= 3
-| mem= 52| cua= 3
-| mem= 53| cua= 1
-| mem= 54| cua= 3
-| mem= 55| cua= 3
-| mem= 56| cua= 3
-| mem= 57| cua= 3
-| mem= 58| cua= 3
-| mem= 59| cua= 3
-| mem= 60| cua= 3
-| mem= 61| cua= 3
-| mem= 62| cua= 3
-| mem= 63| cua= 3
-| mem= 64| cua= 3
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 3
-| mem= 69| cua= 3
-
-| hijo= 0.297288| hijo= 0.848942| hijo= 0.909643| hijo= 0.291053| hijo= 0.180421| hijo= 0.5762| hijo= 0.162757| hijo= 0.139058| hijo= 0.864579| hijo= 0.492422| x= 256.834| x= 661.069| x= 471.96| x= 219.698| x= 190.287| x= 382.747| x= 197.729| x= 188.159| x= 529.248| x= 404.734
-| FITNESS= 50485.9
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 2
-| mem= 24| cua= 3
-| mem= 25| cua= 4
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 2
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 4
-| mem= 41| cua= 3
-| mem= 42| cua= 4
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 4
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 4
-| mem= 61| cua= 4
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.838134| hijo= 0.724252| hijo= 0.836828| hijo= 0.818128| hijo= 0.496074| hijo= 0.121259| hijo= 0.138238| hijo= 0.658831| hijo= 0.324807| hijo= 0.258906| x= 489.397| x= 592.614| x= 441.304| x= 443.704| x= 330.753| x= 175.294| x= 186.622| x= 420.498| x= 283.112| x= 288.676
-| FITNESS= 51689
-| UNFITNESS= 3
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 4
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 4
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 4
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 4
-| mem= 30| cua= 4
-| mem= 31| cua= 3
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 4
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 4
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 4
-| mem= 61| cua= 4
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.58357| hijo= 0.072545| hijo= 0.658747| hijo= 0.647207| hijo= 0.363598| hijo= 0.28827| hijo= 0.883037| hijo= 0.625665| hijo= 0.517715| hijo= 0.207844| x= 379.935| x= 234.827| x= 366.332| x= 371.063| x= 271.801| x= 251.451| x= 524.016| x= 405.672| x= 371.078| x= 263.298
-| FITNESS= 55122.4
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 1
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 4
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 3
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 3
-| mem= 61| cua= 3
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.89756| hijo= 0.426199| hijo= 0.829939| hijo= 0.394388| hijo= 0.244327| hijo= 0.774386| hijo= 0.293678| hijo= 0.638654| hijo= 0.865535| hijo= 0.338243| x= 514.951| x= 428.983| x= 438.404| x= 263.615| x= 218.726| x= 473.12| x= 257.036| x= 411.478| x= 529.684| x= 328.107
-| FITNESS= 60814.5
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 3
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 3
-| mem= 18| cua= 3
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 1
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 1
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 3
-| mem= 36| cua= 3
-| mem= 37| cua= 1
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 3
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 3
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 3
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 3
-| mem= 61| cua= 3
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 3
-| mem= 69| cua= 4
-
-| hijo= 0.0491625| hijo= 0.65712| hijo= 0.809095| hijo= 0.131702| hijo= 0.210883| hijo= 0.473894| hijo= 0.865181| hijo= 0.780868| hijo= 0.0995593| hijo= 0.44256| x= 150.14| x= 555.759| x= 429.629| x= 151.973| x= 203.843| x= 336.096| x= 515.927| x= 475.048| x= 180.399| x= 379.952
-| FITNESS= 51112.2
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 2
-| mem= 24| cua= 3
-| mem= 25| cua= 4
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 2
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 4
-| mem= 41| cua= 3
-| mem= 42| cua= 4
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 4
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 4
-| mem= 61| cua= 4
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.257469| hijo= 0.778257| hijo= 0.625964| hijo= 0.529899| hijo= 0.595045| hijo= 0.361917| hijo= 0.304285| hijo= 0.888723| hijo= 0.476585| hijo= 0.674605| x= 239.712| x= 622.263| x= 352.531| x= 321.207| x= 374.795| x= 285.034| x= 261.841| x= 523.259| x= 352.323| x= 495.279
-| FITNESS= 61377.8
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 3
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 3
-| mem= 18| cua= 3
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 1
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 1
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 3
-| mem= 36| cua= 3
-| mem= 37| cua= 1
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 3
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 3
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 3
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 3
-| mem= 61| cua= 3
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 3
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 3
-| mem= 69| cua= 4
-
-| hijo= 0.782262| hijo= 0.719462| hijo= 0.380215| hijo= 0.401188| hijo= 0.315658| hijo= 0.434009| hijo= 0.260445| hijo= 0.385748| hijo= 0.532846| hijo= 0.919591| x= 465.373| x= 589.984| x= 249.07| x= 266.505| x= 250.468| x= 317.908| x= 241.982| x= 298.429| x= 377.978| x= 617.037
-| FITNESS= 52904.9
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 4
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 1
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 4
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 4
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 3
-| mem= 61| cua= 3
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.518515| hijo= 0.809785| hijo= 0.362154| hijo= 0.31195| hijo= 0.645889| hijo= 0.677812| hijo= 0.53296| hijo= 0.0328927| hijo= 0.618447| hijo= 0.685722| x= 351.961| x= 639.572| x= 241.467| x= 228.579| x= 397.421| x= 429.082| x= 365.431| x= 140.703| x= 417.012| x= 500.804
-| FITNESS= 55300.3
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 3
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 1
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 4
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 3
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 3
-| mem= 61| cua= 3
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.187616| hijo= 0.341354| hijo= 0.700301| hijo= 0.567831| hijo= 0.00112548| hijo= 0.31323| hijo= 0.305239| hijo= 0.26157| hijo= 0.157139| hijo= 0.857555| x= 209.675| x= 382.404| x= 383.827| x= 337.328| x= 110.501| x= 262.833| x= 262.273| x= 242.922| x= 206.655| x= 586.205
-| FITNESS= 42217.1
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 4
-| mem= 12| cua= 4
-| mem= 13| cua= 4
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 2
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 4
-| mem= 22| cua= 2
-| mem= 23| cua= 2
+| mem= 20| cua= 4
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
 | mem= 24| cua= 4
-| mem= 25| cua= 4
-| mem= 26| cua= 2
-| mem= 27| cua= 2
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 2
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 4
-| mem= 39| cua= 4
-| mem= 40| cua= 4
-| mem= 41| cua= 4
-| mem= 42| cua= 4
-| mem= 43| cua= 4
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 4
-| mem= 48| cua= 4
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 4
-| mem= 55| cua= 4
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 4
-| mem= 61| cua= 4
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 2
-| mem= 66| cua= 4
-| mem= 67| cua= 2
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.657201| hijo= 0.604379| hijo= 0.935852| hijo= 0.166955| hijo= 0.874309| hijo= 0.589157| hijo= 0.637771| hijo= 0.664414| hijo= 0.775421| hijo= 0.79491| x= 411.596| x= 526.804| x= 482.994| x= 166.956| x= 499.068| x= 388.655| x= 412.91| x= 422.993| x= 488.592| x= 555.07
-| FITNESS= 75671.2
-| UNFITNESS= 0
-| mem= 0| cua= 1
-| mem= 1| cua= 3
-| mem= 2| cua= 3
-| mem= 3| cua= 3
-| mem= 4| cua= 1
-| mem= 5| cua= 3
-| mem= 6| cua= 3
-| mem= 7| cua= 3
-| mem= 8| cua= 3
-| mem= 9| cua= 4
-| mem= 10| cua= 1
-| mem= 11| cua= 3
-| mem= 12| cua= 3
-| mem= 13| cua= 3
-| mem= 14| cua= 3
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 3
-| mem= 18| cua= 3
-| mem= 19| cua= 4
-| mem= 20| cua= 1
-| mem= 21| cua= 3
-| mem= 22| cua= 1
-| mem= 23| cua= 1
-| mem= 24| cua= 3
 | mem= 25| cua= 3
 | mem= 26| cua= 1
 | mem= 27| cua= 1
 | mem= 28| cua= 3
 | mem= 29| cua= 1
 | mem= 30| cua= 3
-| mem= 31| cua= 1
-| mem= 32| cua= 3
-| mem= 33| cua= 3
-| mem= 34| cua= 3
-| mem= 35| cua= 3
-| mem= 36| cua= 3
-| mem= 37| cua= 1
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 3
-| mem= 46| cua= 3
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 3
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 1
-| mem= 54| cua= 3
-| mem= 55| cua= 3
-| mem= 56| cua= 3
-| mem= 57| cua= 3
-| mem= 58| cua= 3
-| mem= 59| cua= 3
-| mem= 60| cua= 3
-| mem= 61| cua= 3
-| mem= 62| cua= 3
-| mem= 63| cua= 3
-| mem= 64| cua= 3
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 3
-| mem= 69| cua= 3
-
-| hijo= 0.112648| hijo= 0.48981| hijo= 0.538557| hijo= 0.148342| hijo= 0.814351| hijo= 0.384658| hijo= 0.70091| hijo= 0.518151| hijo= 0.143982| hijo= 0.515049| x= 177.439| x= 463.906| x= 315.732| x= 159.045| x= 472.386| x= 295.404| x= 441.512| x= 357.613| x= 200.656| x= 415.979
-| FITNESS= 49933.3
-| UNFITNESS= 0
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 2
-| mem= 24| cua= 3
-| mem= 25| cua= 4
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 2
-| mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 4
-| mem= 41| cua= 3
-| mem= 42| cua= 4
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 4
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 4
-| mem= 61| cua= 4
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.247033| hijo= 0.406767| hijo= 0.0174566| hijo= 0.59728| hijo= 0.222602| hijo= 0.219788| hijo= 0.582682| hijo= 0.923513| hijo= 0.737939| hijo= 0.462852| x= 235.224| x= 418.315| x= 96.3492| x= 349.844| x= 209.058| x= 220.223| x= 387.955| x= 538.81| x= 471.5| x= 390.038
-| FITNESS= 50317.8
-| UNFITNESS= 6
-| mem= 0| cua= 2
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 4
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 4
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 3
-| mem= 17| cua= 4
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 4
-| mem= 23| cua= 4
-| mem= 24| cua= 3
-| mem= 25| cua= 4
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 4
-| mem= 30| cua= 4
 | mem= 31| cua= 4
 | mem= 32| cua= 3
-| mem= 33| cua= 4
-| mem= 34| cua= 3
-| mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 3
-| mem= 39| cua= 3
-| mem= 40| cua= 4
-| mem= 41| cua= 3
-| mem= 42| cua= 4
-| mem= 43| cua= 3
-| mem= 44| cua= 3
-| mem= 45| cua= 4
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 4
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
-| mem= 54| cua= 4
-| mem= 55| cua= 3
-| mem= 56| cua= 4
-| mem= 57| cua= 4
-| mem= 58| cua= 4
-| mem= 59| cua= 4
-| mem= 60| cua= 4
-| mem= 61| cua= 4
-| mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
-| mem= 68| cua= 4
-| mem= 69| cua= 4
-
-| hijo= 0.438562| hijo= 0.466169| hijo= 0.884318| hijo= 0.967277| hijo= 0.183765| hijo= 0.458039| hijo= 0.333569| hijo= 0.536743| hijo= 0.904782| hijo= 0.477551| x= 317.582| x= 450.927| x= 461.298| x= 507.093| x= 191.776| x= 328.866| x= 275.107| x= 365.924| x= 547.58| x= 397.343
-| FITNESS= 63704.7
-| UNFITNESS= 0
-| mem= 0| cua= 1
-| mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
-| mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 3
-| mem= 9| cua= 4
-| mem= 10| cua= 2
-| mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
-| mem= 14| cua= 3
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 3
-| mem= 18| cua= 3
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 1
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
-| mem= 26| cua= 1
-| mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 1
-| mem= 32| cua= 3
 | mem= 33| cua= 3
 | mem= 34| cua= 3
 | mem= 35| cua= 3
 | mem= 36| cua= 3
-| mem= 37| cua= 1
-| mem= 38| cua= 3
+| mem= 37| cua= 3
+| mem= 38| cua= 1
 | mem= 39| cua= 3
 | mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
+| mem= 41| cua= 4
+| mem= 42| cua= 1
 | mem= 43| cua= 3
 | mem= 44| cua= 3
 | mem= 45| cua= 3
 | mem= 46| cua= 3
 | mem= 47| cua= 3
 | mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
-| mem= 53| cua= 2
+| mem= 49| cua= 4
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 4
 | mem= 54| cua= 3
 | mem= 55| cua= 3
-| mem= 56| cua= 3
+| mem= 56| cua= 4
 | mem= 57| cua= 3
-| mem= 58| cua= 4
+| mem= 58| cua= 3
 | mem= 59| cua= 4
 | mem= 60| cua= 3
 | mem= 61| cua= 3
 | mem= 62| cua= 3
 | mem= 63| cua= 4
 | mem= 64| cua= 3
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
+| mem= 65| cua= 4
+| mem= 66| cua= 4
+| mem= 67| cua= 4
 | mem= 68| cua= 3
-| mem= 69| cua= 4
-
-| hijo= 0.761612| hijo= 0.963505| hijo= 0.331846| hijo= 0.402379| hijo= 0.563617| hijo= 0.242626| hijo= 0.0189108| hijo= 0.343841| hijo= 0.00907344| hijo= 0.923692| x= 456.493| x= 723.964| x= 228.707| x= 267.011| x= 360.81| x= 230.637| x= 132.567| x= 279.697| x= 139.137| x= 619.075
-| FITNESS= 44281.6
-| UNFITNESS= 0
+| mem= 69| cua= 3
+| hijoCopia= 0.416501| hijoCopia= 0.447034| hijoCopia= 0.906804
+| hijo= 0.684445| hijo= 0.984752| hijo= 0.749771| x= 423.311| x= 735.629| x= 404.654
+| FITNESS mejor= 16659
+| mem= 0| cua= 1
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 1
+| mem= 4| cua= 1
+| mem= 5| cua= 1
+| mem= 6| cua= 3
+| mem= 7| cua= 1
+| mem= 8| cua= 1
+| mem= 9| cua= 3
+| mem= 10| cua= 1
+| mem= 11| cua= 1
+| mem= 12| cua= 3
+| mem= 13| cua= 1
+| mem= 14| cua= 3
+| mem= 15| cua= 1
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 1
+| mem= 19| cua= 3
+| mem= 20| cua= 1
+| mem= 21| cua= 1
+| mem= 22| cua= 1
+| mem= 23| cua= 3
+| mem= 24| cua= 2
+| mem= 25| cua= 1
+| mem= 26| cua= 1
+| mem= 27| cua= 1
+| mem= 28| cua= 1
+| mem= 29| cua= 1
+| mem= 30| cua= 1
+| mem= 31| cua= 1
+| mem= 32| cua= 1
+| mem= 33| cua= 1
+| mem= 34| cua= 3
+| mem= 35| cua= 1
+| mem= 36| cua= 1
+| mem= 37| cua= 1
+| mem= 38| cua= 1
+| mem= 39| cua= 1
+| mem= 40| cua= 1
+| mem= 41| cua= 2
+| mem= 42| cua= 1
+| mem= 43| cua= 1
+| mem= 44| cua= 1
+| mem= 45| cua= 1
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 1
+| mem= 54| cua= 1
+| mem= 55| cua= 3
+| mem= 56| cua= 1
+| mem= 57| cua= 1
+| mem= 58| cua= 1
+| mem= 59| cua= 1
+| mem= 60| cua= 1
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 2
+| mem= 66| cua= 2
+| mem= 67| cua= 2
+| mem= 68| cua= 1
+| mem= 69| cua= 3
+| hijoCopia= 0.684445| hijoCopia= 0.984752| hijoCopia= 0.749771
+| hijo= 0.368664| hijo= 0.244413| hijo= 0.15239| x= 287.525| x= 329.183| x= 153.156
+| FITNESS mejor= 3691.76
 | mem= 0| cua= 2
 | mem= 1| cua= 4
-| mem= 2| cua= 3
-| mem= 3| cua= 4
+| mem= 2| cua= 4
+| mem= 3| cua= 2
 | mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
+| mem= 5| cua= 2
+| mem= 6| cua= 3
+| mem= 7| cua= 2
+| mem= 8| cua= 3
 | mem= 9| cua= 4
-| mem= 10| cua= 2
+| mem= 10| cua= 4
 | mem= 11| cua= 4
 | mem= 12| cua= 4
-| mem= 13| cua= 4
+| mem= 13| cua= 2
 | mem= 14| cua= 4
-| mem= 15| cua= 3
-| mem= 16| cua= 2
-| mem= 17| cua= 4
+| mem= 15| cua= 2
+| mem= 16| cua= 4
+| mem= 17| cua= 2
 | mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 2
-| mem= 23| cua= 2
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 2
+| mem= 22| cua= 4
+| mem= 23| cua= 4
 | mem= 24| cua= 4
-| mem= 25| cua= 4
+| mem= 25| cua= 2
 | mem= 26| cua= 2
 | mem= 27| cua= 2
 | mem= 28| cua= 4
 | mem= 29| cua= 2
-| mem= 30| cua= 4
+| mem= 30| cua= 2
 | mem= 31| cua= 2
-| mem= 32| cua= 3
+| mem= 32| cua= 4
 | mem= 33| cua= 4
-| mem= 34| cua= 3
+| mem= 34| cua= 4
 | mem= 35| cua= 4
-| mem= 36| cua= 4
-| mem= 37| cua= 2
-| mem= 38| cua= 4
+| mem= 36| cua= 2
+| mem= 37| cua= 4
+| mem= 38| cua= 2
 | mem= 39| cua= 4
-| mem= 40| cua= 4
+| mem= 40| cua= 2
 | mem= 41| cua= 4
-| mem= 42| cua= 4
-| mem= 43| cua= 4
-| mem= 44| cua= 3
-| mem= 45| cua= 4
+| mem= 42| cua= 2
+| mem= 43| cua= 2
+| mem= 44| cua= 4
+| mem= 45| cua= 2
 | mem= 46| cua= 4
-| mem= 47| cua= 4
-| mem= 48| cua= 4
-| mem= 49| cua= 4
+| mem= 47| cua= 2
+| mem= 48| cua= 2
+| mem= 49| cua= 2
 | mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
+| mem= 51| cua= 3
+| mem= 52| cua= 2
 | mem= 53| cua= 2
 | mem= 54| cua= 4
 | mem= 55| cua= 4
 | mem= 56| cua= 4
 | mem= 57| cua= 4
-| mem= 58| cua= 4
+| mem= 58| cua= 2
 | mem= 59| cua= 4
-| mem= 60| cua= 4
+| mem= 60| cua= 2
 | mem= 61| cua= 4
-| mem= 62| cua= 3
-| mem= 63| cua= 4
+| mem= 62| cua= 4
+| mem= 63| cua= 2
 | mem= 64| cua= 4
 | mem= 65| cua= 2
-| mem= 66| cua= 3
-| mem= 67| cua= 2
+| mem= 66| cua= 2
+| mem= 67| cua= 4
 | mem= 68| cua= 4
 | mem= 69| cua= 4
-
-| hijo= 0.601427| hijo= 0.623194| hijo= 0.718666| hijo= 0.92454| hijo= 0.184066| hijo= 0.447982| hijo= 0.487721| hijo= 0.795231| hijo= 0.639009| hijo= 0.176239| x= 387.613| x= 537.134| x= 391.559| x= 488.929| x= 191.909| x= 324.28| x= 344.937| x= 481.468| x= 426.388| x= 247.591
-| FITNESS= 59929.3
-| UNFITNESS= 0
+| hijoCopia= 0.368664| hijoCopia= 0.244413| hijoCopia= 0.15239
+| hijo= 0.910972| hijo= 0.125475| hijo= 0.79347| x= 520.718| x= 263.886| x= 423.051
+| FITNESS mejor= 13467.6
 | mem= 0| cua= 2
-| mem= 1| cua= 4
+| mem= 1| cua= 3
 | mem= 2| cua= 3
-| mem= 3| cua= 4
+| mem= 3| cua= 1
 | mem= 4| cua= 2
-| mem= 5| cua= 3
-| mem= 6| cua= 4
-| mem= 7| cua= 4
-| mem= 8| cua= 4
-| mem= 9| cua= 4
-| mem= 10| cua= 2
+| mem= 5| cua= 2
+| mem= 6| cua= 3
+| mem= 7| cua= 1
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 3
 | mem= 11| cua= 3
-| mem= 12| cua= 4
-| mem= 13| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 2
 | mem= 14| cua= 3
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 3
-| mem= 18| cua= 4
-| mem= 19| cua= 4
-| mem= 20| cua= 2
-| mem= 21| cua= 3
-| mem= 22| cua= 1
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
+| mem= 15| cua= 4
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 1
 | mem= 26| cua= 1
 | mem= 27| cua= 1
-| mem= 28| cua= 4
-| mem= 29| cua= 2
-| mem= 30| cua= 4
-| mem= 31| cua= 1
-| mem= 32| cua= 3
-| mem= 33| cua= 4
+| mem= 28| cua= 3
+| mem= 29| cua= 1
+| mem= 30| cua= 2
+| mem= 31| cua= 2
+| mem= 32| cua= 4
+| mem= 33| cua= 3
 | mem= 34| cua= 3
 | mem= 35| cua= 3
-| mem= 36| cua= 4
-| mem= 37| cua= 1
-| mem= 38| cua= 3
+| mem= 36| cua= 1
+| mem= 37| cua= 3
+| mem= 38| cua= 1
 | mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 1
 | mem= 43| cua= 3
 | mem= 44| cua= 3
 | mem= 45| cua= 3
-| mem= 46| cua= 4
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
-| mem= 50| cua= 4
-| mem= 51| cua= 4
-| mem= 52| cua= 4
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
 | mem= 53| cua= 2
 | mem= 54| cua= 3
 | mem= 55| cua= 3
 | mem= 56| cua= 4
 | mem= 57| cua= 3
-| mem= 58| cua= 4
+| mem= 58| cua= 1
 | mem= 59| cua= 4
 | mem= 60| cua= 3
 | mem= 61| cua= 3
 | mem= 62| cua= 3
-| mem= 63| cua= 4
-| mem= 64| cua= 4
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 4
+| mem= 66| cua= 2
+| mem= 67| cua= 4
 | mem= 68| cua= 3
-| mem= 69| cua= 4
-
-| hijo= 0.0347164| hijo= 0.327616| hijo= 0.813904| hijo= 0.753383| hijo= 0.341482| hijo= 0.99797| hijo= 0.766701| hijo= 0.80333| hijo= 0.698713| hijo= 0.681922| x= 143.928| x= 374.861| x= 431.653| x= 416.188| x= 261.96| x= 575.074| x= 471.316| x= 485.089| x= 453.613| x= 498.915
-| FITNESS= 76993.6
-| UNFITNESS= 0
+| mem= 69| cua= 3
+| hijoCopia= 0.910972| hijoCopia= 0.125475| hijoCopia= 0.79347
+| hijo= 0.732654| hijo= 0.284293| hijo= 0.93081| x= 444.041| x= 351.077| x= 480.871
+| FITNESS mejor= 15307.3
 | mem= 0| cua= 1
 | mem= 1| cua= 3
 | mem= 2| cua= 3
-| mem= 3| cua= 3
+| mem= 3| cua= 1
 | mem= 4| cua= 1
-| mem= 5| cua= 3
+| mem= 5| cua= 4
 | mem= 6| cua= 3
 | mem= 7| cua= 3
 | mem= 8| cua= 3
-| mem= 9| cua= 4
-| mem= 10| cua= 1
+| mem= 9| cua= 3
+| mem= 10| cua= 3
 | mem= 11| cua= 3
 | mem= 12| cua= 3
-| mem= 13| cua= 3
+| mem= 13| cua= 1
 | mem= 14| cua= 3
-| mem= 15| cua= 3
-| mem= 16| cua= 1
-| mem= 17| cua= 3
+| mem= 15| cua= 4
+| mem= 16| cua= 3
+| mem= 17| cua= 1
 | mem= 18| cua= 3
-| mem= 19| cua= 4
-| mem= 20| cua= 1
-| mem= 21| cua= 3
-| mem= 22| cua= 1
-| mem= 23| cua= 1
-| mem= 24| cua= 3
-| mem= 25| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 1
 | mem= 26| cua= 1
 | mem= 27| cua= 1
 | mem= 28| cua= 3
 | mem= 29| cua= 1
 | mem= 30| cua= 3
-| mem= 31| cua= 1
+| mem= 31| cua= 2
 | mem= 32| cua= 3
 | mem= 33| cua= 3
 | mem= 34| cua= 3
 | mem= 35| cua= 3
-| mem= 36| cua= 3
-| mem= 37| cua= 1
-| mem= 38| cua= 3
+| mem= 36| cua= 1
+| mem= 37| cua= 3
+| mem= 38| cua= 1
 | mem= 39| cua= 3
-| mem= 40| cua= 3
-| mem= 41| cua= 3
-| mem= 42| cua= 3
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 1
 | mem= 43| cua= 3
 | mem= 44| cua= 3
 | mem= 45| cua= 3
 | mem= 46| cua= 3
-| mem= 47| cua= 3
-| mem= 48| cua= 3
-| mem= 49| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
 | mem= 50| cua= 3
-| mem= 51| cua= 4
-| mem= 52| cua= 4
+| mem= 51| cua= 3
+| mem= 52| cua= 1
 | mem= 53| cua= 1
 | mem= 54| cua= 3
 | mem= 55| cua= 3
 | mem= 56| cua= 3
 | mem= 57| cua= 3
 | mem= 58| cua= 3
-| mem= 59| cua= 3
+| mem= 59| cua= 4
 | mem= 60| cua= 3
 | mem= 61| cua= 3
 | mem= 62| cua= 3
-| mem= 63| cua= 3
+| mem= 63| cua= 2
 | mem= 64| cua= 3
-| mem= 65| cua= 1
-| mem= 66| cua= 3
-| mem= 67| cua= 1
+| mem= 65| cua= 4
+| mem= 66| cua= 4
+| mem= 67| cua= 4
 | mem= 68| cua= 3
 | mem= 69| cua= 3
-
+| hijoCopia= 0.732654| hijoCopia= 0.284293| hijoCopia= 0.93081
+| hijo= 0.204329| hijo= 0.889956| hijo= 0.125468| x= 216.861| x= 683.586| x= 141.822
+| FITNESS mejor= 6189.14
+| mem= 0| cua= 2
+| mem= 1| cua= 2
+| mem= 2| cua= 2
+| mem= 3| cua= 2
+| mem= 4| cua= 2
+| mem= 5| cua= 2
+| mem= 6| cua= 1
+| mem= 7| cua= 2
+| mem= 8| cua= 1
+| mem= 9| cua= 4
+| mem= 10| cua= 2
+| mem= 11| cua= 2
+| mem= 12| cua= 2
+| mem= 13| cua= 2
+| mem= 14| cua= 2
+| mem= 15| cua= 2
+| mem= 16| cua= 2
+| mem= 17| cua= 2
+| mem= 18| cua= 1
+| mem= 19| cua= 1
+| mem= 20| cua= 2
+| mem= 21| cua= 2
+| mem= 22| cua= 2
+| mem= 23| cua= 1
+| mem= 24| cua= 2
+| mem= 25| cua= 2
+| mem= 26| cua= 2
+| mem= 27| cua= 2
+| mem= 28| cua= 2
+| mem= 29| cua= 2
+| mem= 30| cua= 2
+| mem= 31| cua= 2
+| mem= 32| cua= 2
+| mem= 33| cua= 2
+| mem= 34| cua= 4
+| mem= 35| cua= 2
+| mem= 36| cua= 2
+| mem= 37| cua= 1
+| mem= 38| cua= 2
+| mem= 39| cua= 2
+| mem= 40| cua= 2
+| mem= 41| cua= 2
+| mem= 42| cua= 2
+| mem= 43| cua= 1
+| mem= 44| cua= 1
+| mem= 45| cua= 2
+| mem= 46| cua= 1
+| mem= 47| cua= 2
+| mem= 48| cua= 2
+| mem= 49| cua= 2
+| mem= 50| cua= 2
+| mem= 51| cua= 1
+| mem= 52| cua= 1
+| mem= 53| cua= 2
+| mem= 54| cua= 2
+| mem= 55| cua= 3
+| mem= 56| cua= 2
+| mem= 57| cua= 2
+| mem= 58| cua= 1
+| mem= 59| cua= 2
+| mem= 60| cua= 2
+| mem= 61| cua= 1
+| mem= 62| cua= 2
+| mem= 63| cua= 2
+| mem= 64| cua= 1
+| mem= 65| cua= 2
+| mem= 66| cua= 2
+| mem= 67| cua= 2
+| mem= 68| cua= 2
+| mem= 69| cua= 4
+| hijoCopia= 0.204329| hijoCopia= 0.889956| hijoCopia= 0.125468
+| hijo= 0.0723288| hijo= 0.807725| hijo= 0.663227| x= 160.101| x= 638.441| x= 368.219
+| FITNESS mejor= 11962
+| mem= 0| cua= 2
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 1
+| mem= 4| cua= 2
+| mem= 5| cua= 2
+| mem= 6| cua= 3
+| mem= 7| cua= 1
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 4
+| mem= 11| cua= 1
+| mem= 12| cua= 3
+| mem= 13| cua= 2
+| mem= 14| cua= 3
+| mem= 15| cua= 2
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 2
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 2
+| mem= 25| cua= 2
+| mem= 26| cua= 2
+| mem= 27| cua= 2
+| mem= 28| cua= 1
+| mem= 29| cua= 2
+| mem= 30| cua= 2
+| mem= 31| cua= 2
+| mem= 32| cua= 2
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 2
+| mem= 37| cua= 1
+| mem= 38| cua= 1
+| mem= 39| cua= 2
+| mem= 40| cua= 1
+| mem= 41| cua= 2
+| mem= 42| cua= 2
+| mem= 43| cua= 1
+| mem= 44| cua= 1
+| mem= 45| cua= 2
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 2
+| mem= 54| cua= 2
+| mem= 55| cua= 3
+| mem= 56| cua= 2
+| mem= 57| cua= 4
+| mem= 58| cua= 1
+| mem= 59| cua= 2
+| mem= 60| cua= 1
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 2
+| mem= 66| cua= 2
+| mem= 67| cua= 2
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.0723288| hijoCopia= 0.807725| hijoCopia= 0.663227
+| hijo= 0.39169| hijo= 0.913027| hijo= 0.0630958| x= 297.427| x= 696.252| x= 115.563
+| FITNESS mejor= 6333.69
+| mem= 0| cua= 2
+| mem= 1| cua= 2
+| mem= 2| cua= 2
+| mem= 3| cua= 2
+| mem= 4| cua= 2
+| mem= 5| cua= 2
+| mem= 6| cua= 1
+| mem= 7| cua= 2
+| mem= 8| cua= 1
+| mem= 9| cua= 2
+| mem= 10| cua= 2
+| mem= 11| cua= 2
+| mem= 12| cua= 2
+| mem= 13| cua= 2
+| mem= 14| cua= 2
+| mem= 15| cua= 2
+| mem= 16| cua= 2
+| mem= 17| cua= 2
+| mem= 18| cua= 1
+| mem= 19| cua= 1
+| mem= 20| cua= 2
+| mem= 21| cua= 2
+| mem= 22| cua= 2
+| mem= 23| cua= 1
+| mem= 24| cua= 2
+| mem= 25| cua= 2
+| mem= 26| cua= 2
+| mem= 27| cua= 2
+| mem= 28| cua= 2
+| mem= 29| cua= 2
+| mem= 30| cua= 2
+| mem= 31| cua= 2
+| mem= 32| cua= 2
+| mem= 33| cua= 2
+| mem= 34| cua= 2
+| mem= 35| cua= 2
+| mem= 36| cua= 2
+| mem= 37| cua= 1
+| mem= 38| cua= 2
+| mem= 39| cua= 2
+| mem= 40| cua= 1
+| mem= 41| cua= 2
+| mem= 42| cua= 2
+| mem= 43| cua= 1
+| mem= 44| cua= 1
+| mem= 45| cua= 2
+| mem= 46| cua= 1
+| mem= 47| cua= 2
+| mem= 48| cua= 2
+| mem= 49| cua= 2
+| mem= 50| cua= 2
+| mem= 51| cua= 1
+| mem= 52| cua= 1
+| mem= 53| cua= 2
+| mem= 54| cua= 2
+| mem= 55| cua= 1
+| mem= 56| cua= 2
+| mem= 57| cua= 2
+| mem= 58| cua= 1
+| mem= 59| cua= 2
+| mem= 60| cua= 2
+| mem= 61| cua= 1
+| mem= 62| cua= 2
+| mem= 63| cua= 2
+| mem= 64| cua= 1
+| mem= 65| cua= 2
+| mem= 66| cua= 2
+| mem= 67| cua= 2
+| mem= 68| cua= 2
+| mem= 69| cua= 2
+| hijoCopia= 0.39169| hijoCopia= 0.913027| hijoCopia= 0.0630958
+| hijo= 0.530808| hijo= 0.125475| hijo= 0.79347| x= 357.247| x= 263.886| x= 423.051
+| FITNESS mejor= 11832.9
+| mem= 0| cua= 2
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 1
+| mem= 4| cua= 2
+| mem= 5| cua= 2
+| mem= 6| cua= 3
+| mem= 7| cua= 1
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 4
+| mem= 11| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 2
+| mem= 14| cua= 3
+| mem= 15| cua= 4
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 2
+| mem= 26| cua= 2
+| mem= 27| cua= 2
+| mem= 28| cua= 3
+| mem= 29| cua= 2
+| mem= 30| cua= 2
+| mem= 31| cua= 2
+| mem= 32| cua= 4
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 2
+| mem= 37| cua= 3
+| mem= 38| cua= 1
+| mem= 39| cua= 4
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 2
+| mem= 43| cua= 3
+| mem= 44| cua= 3
+| mem= 45| cua= 4
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 2
+| mem= 54| cua= 4
+| mem= 55| cua= 3
+| mem= 56| cua= 4
+| mem= 57| cua= 4
+| mem= 58| cua= 1
+| mem= 59| cua= 4
+| mem= 60| cua= 3
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 4
+| mem= 66| cua= 2
+| mem= 67| cua= 4
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.530808| hijoCopia= 0.125475| hijoCopia= 0.79347
+| hijo= 0.747809| hijo= 0.576971| hijo= 0.0354209| x= 450.558| x= 511.757| x= 103.912
+| FITNESS mejor= 5670.52
+| mem= 0| cua= 2
+| mem= 1| cua= 4
+| mem= 2| cua= 4
+| mem= 3| cua= 2
+| mem= 4| cua= 2
+| mem= 5| cua= 2
+| mem= 6| cua= 3
+| mem= 7| cua= 2
+| mem= 8| cua= 1
+| mem= 9| cua= 4
+| mem= 10| cua= 2
+| mem= 11| cua= 2
+| mem= 12| cua= 4
+| mem= 13| cua= 2
+| mem= 14| cua= 4
+| mem= 15| cua= 2
+| mem= 16| cua= 2
+| mem= 17| cua= 2
+| mem= 18| cua= 1
+| mem= 19| cua= 1
+| mem= 20| cua= 2
+| mem= 21| cua= 2
+| mem= 22| cua= 2
+| mem= 23| cua= 1
+| mem= 24| cua= 2
+| mem= 25| cua= 2
+| mem= 26| cua= 2
+| mem= 27| cua= 2
+| mem= 28| cua= 2
+| mem= 29| cua= 2
+| mem= 30| cua= 2
+| mem= 31| cua= 2
+| mem= 32| cua= 2
+| mem= 33| cua= 2
+| mem= 34| cua= 4
+| mem= 35| cua= 2
+| mem= 36| cua= 2
+| mem= 37| cua= 1
+| mem= 38| cua= 2
+| mem= 39| cua= 2
+| mem= 40| cua= 2
+| mem= 41| cua= 2
+| mem= 42| cua= 2
+| mem= 43| cua= 1
+| mem= 44| cua= 1
+| mem= 45| cua= 2
+| mem= 46| cua= 3
+| mem= 47| cua= 2
+| mem= 48| cua= 2
+| mem= 49| cua= 2
+| mem= 50| cua= 4
+| mem= 51| cua= 1
+| mem= 52| cua= 2
+| mem= 53| cua= 2
+| mem= 54| cua= 2
+| mem= 55| cua= 4
+| mem= 56| cua= 2
+| mem= 57| cua= 2
+| mem= 58| cua= 1
+| mem= 59| cua= 2
+| mem= 60| cua= 2
+| mem= 61| cua= 4
+| mem= 62| cua= 2
+| mem= 63| cua= 2
+| mem= 64| cua= 4
+| mem= 65| cua= 2
+| mem= 66| cua= 2
+| mem= 67| cua= 2
+| mem= 68| cua= 2
+| mem= 69| cua= 4
+| hijoCopia= 0.747809| hijoCopia= 0.576971| hijoCopia= 0.0354209
+| hijo= 0.747803| hijo= 0.281059| hijo= 0.925377| x= 450.555| x= 349.302| x= 478.584
+| FITNESS mejor= 15286.1
+| mem= 0| cua= 1
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 1
+| mem= 4| cua= 1
+| mem= 5| cua= 4
+| mem= 6| cua= 3
+| mem= 7| cua= 3
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 3
+| mem= 11| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 1
+| mem= 14| cua= 3
+| mem= 15| cua= 4
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 4
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 4
+| mem= 25| cua= 1
+| mem= 26| cua= 1
+| mem= 27| cua= 1
+| mem= 28| cua= 3
+| mem= 29| cua= 1
+| mem= 30| cua= 3
+| mem= 31| cua= 2
+| mem= 32| cua= 3
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 1
+| mem= 37| cua= 3
+| mem= 38| cua= 1
+| mem= 39| cua= 3
+| mem= 40| cua= 1
+| mem= 41| cua= 4
+| mem= 42| cua= 1
+| mem= 43| cua= 3
+| mem= 44| cua= 3
+| mem= 45| cua= 3
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 2
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 1
+| mem= 54| cua= 3
+| mem= 55| cua= 3
+| mem= 56| cua= 3
+| mem= 57| cua= 3
+| mem= 58| cua= 3
+| mem= 59| cua= 4
+| mem= 60| cua= 3
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 2
+| mem= 64| cua= 3
+| mem= 65| cua= 4
+| mem= 66| cua= 4
+| mem= 67| cua= 4
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.747803| hijoCopia= 0.281059| hijoCopia= 0.925377
+| hijo= 0.743811| hijo= 0.903366| hijo= 0.983596| x= 448.839| x= 690.948| x= 503.094
+| FITNESS mejor= 19420.7
+| mem= 0| cua= 1
+| mem= 1| cua= 3
+| mem= 2| cua= 3
+| mem= 3| cua= 1
+| mem= 4| cua= 1
+| mem= 5| cua= 1
+| mem= 6| cua= 3
+| mem= 7| cua= 1
+| mem= 8| cua= 3
+| mem= 9| cua= 3
+| mem= 10| cua= 3
+| mem= 11| cua= 3
+| mem= 12| cua= 3
+| mem= 13| cua= 1
+| mem= 14| cua= 3
+| mem= 15| cua= 1
+| mem= 16| cua= 3
+| mem= 17| cua= 1
+| mem= 18| cua= 3
+| mem= 19| cua= 3
+| mem= 20| cua= 3
+| mem= 21| cua= 1
+| mem= 22| cua= 3
+| mem= 23| cua= 3
+| mem= 24| cua= 3
+| mem= 25| cua= 1
+| mem= 26| cua= 1
+| mem= 27| cua= 1
+| mem= 28| cua= 3
+| mem= 29| cua= 1
+| mem= 30| cua= 1
+| mem= 31| cua= 1
+| mem= 32| cua= 3
+| mem= 33| cua= 3
+| mem= 34| cua= 3
+| mem= 35| cua= 3
+| mem= 36| cua= 1
+| mem= 37| cua= 3
+| mem= 38| cua= 1
+| mem= 39| cua= 1
+| mem= 40| cua= 1
+| mem= 41| cua= 3
+| mem= 42| cua= 1
+| mem= 43| cua= 1
+| mem= 44| cua= 1
+| mem= 45| cua= 1
+| mem= 46| cua= 3
+| mem= 47| cua= 1
+| mem= 48| cua= 1
+| mem= 49| cua= 1
+| mem= 50| cua= 3
+| mem= 51| cua= 3
+| mem= 52| cua= 1
+| mem= 53| cua= 1
+| mem= 54| cua= 3
+| mem= 55| cua= 3
+| mem= 56| cua= 3
+| mem= 57| cua= 3
+| mem= 58| cua= 1
+| mem= 59| cua= 3
+| mem= 60| cua= 1
+| mem= 61| cua= 3
+| mem= 62| cua= 3
+| mem= 63| cua= 1
+| mem= 64| cua= 3
+| mem= 65| cua= 1
+| mem= 66| cua= 2
+| mem= 67| cua= 3
+| mem= 68| cua= 3
+| mem= 69| cua= 3
+| hijoCopia= 0.743811| hijoCopia= 0.903366| hijoCopia= 0.983596
+| mejor= 0.619596| mejor= 0.281059| mejor= 0.431953
