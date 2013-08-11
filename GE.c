@@ -6,7 +6,7 @@
 #include <vector>
 
 #define POPSIZE 70            /* poblacion size */ 
-#define MAXGENS 1           /* max. number of generations */ 
+#define MAXGENS 100          /* max. number of generations */ 
 #define PXOVER 0.85            /* probability of crossover */ 
 #define PMUTATION 0.01         /* probability of mutation */ 
 
@@ -91,12 +91,8 @@ int i=0,k=0;
                                j++;
 			}     k++; 
 	}
-    
-    linea++; 
-	   
-    }	
-	
-	
+    linea++; 	   
+    }		
     return 0;
 }
 
@@ -105,6 +101,8 @@ void reemplazar();
 using namespace std;
 ofstream rc("ruteo.txt");
 ofstream rt("ruteo2.txt");
+ofstream pb("pb.txt");
+ofstream pbn("pbn.txt");
 
 /*funcion que da comienzo a la primera generacion de la poblacion*/
 void iniciar(void){ 
@@ -132,11 +130,11 @@ void evaluar(void) {
 		sumu[mem]=0;
 	}
 	for(mem=0; mem<POPSIZE; mem++){ //calculo de fitness
-		rc << "| mem= "<<(mem);
+		pb << "| mem= "<<(mem);
 		for(i=0; i<al.p; i++){
 			x[i] = al.bef[i]+poblacion[mem].y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
 			//printf("%.5f, ", x[i]);
-			rc << "| x= "<<(x[i]);			
+			pb << "| y= "<<(poblacion[mem].y[i]);			
 			d[i]=x[i]-al.target[i]; // desviacion
 			if(d[i]<0){ // aterriza antes target time
 				a[i]=-d[i];
@@ -152,31 +150,26 @@ void evaluar(void) {
 			}
 			f=(al.pbef[i]*a[i]+al.plast[i]*r[i]);
 			sumf[mem]=sumf[mem]+f;	
-		}rc <<endl;	
+		}//rc <<endl;	
 		for(i=0; i<al.p; i++){// calculo unfitness		
 			for(j=0; j<al.p; j++){
-				//rc << "| j= "<<(j);
 				s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
-				//rc << "| xi= "<<(x[i]);
-				//rc << "| xj= "<<(x[j]);
-				//rc << "| S= "<<(s);
 				if(s>0&&j>i){ 
 					f=s;
 				}else f=0; //valor distinto de 0 la separacion fue violada
-				//rc << "| F= "<<(f);
 			}sumu[mem]=sumu[mem]+f;
 		}
 		poblacion[mem].fitness=sumf[mem];
 		poblacion[mem].unfitness=sumu[mem];
 		//printf("FITNESS %.5f\n", poblacion[mem].fitness);
-		rc << "| FITNESS= "<<(poblacion[mem].fitness);
+		pb << "| FITNESS= "<<(poblacion[mem].fitness);
 		//rc <<endl;//printf("UNFITNESS %.5f\n", poblacion[mem].unfitness);
 		//rc << "| UNFITNESS= "<<(poblacion[mem].unfitness);
-		rc <<endl;
+		pb <<endl;
 	}
 }
 
-/*funcion que evalua el fitness y unfitness de un miembro de la poblacion */
+/*funcion que evalua el fitness y unfitness del hijo de la poblacion */
 void evaluarh() { 
 	int i,s,j; 
 	double x[al.p+1], d[al.p+1], a[al.p+1], r[al.p+1];
@@ -263,7 +256,7 @@ void guardar_mejor() {
 	int mem; int i; int mejor = 0; 
  
 	for(mem=0; mem<POPSIZE; mem++){
-		if(poblacion[mem].fitness > poblacion[POPSIZE].fitness){ //busca el mejor miembro
+		if(poblacion[mem].fitness < poblacion[POPSIZE].fitness){ //busca el mejor miembro
 			mejor = mem;
 			poblacion[POPSIZE].fitness = poblacion[mem].fitness; 
 		}
@@ -285,27 +278,28 @@ int clasificar(){
 	for(mem=0; mem<POPSIZE; ++mem){
 		if(poblacion[mem].fitness<=hijo.fitness){
 			if(poblacion[mem].unfitness<=hijo.unfitness){
+				poblacion[mem].cuadrante=4;
+				rc << "| mem= "<<(mem);
+				rc << "| cua= "<<(poblacion[mem].cuadrante);
+			}
+			if(poblacion[mem].unfitness>hijo.unfitness){			
+				poblacion[mem].cuadrante=2; 
+				rc << "| mem= "<<(mem);
+				rc << "| cua= "<<(poblacion[mem].cuadrante);
+				//rc <<endl;
+			}
+		}else{
+			if(poblacion[mem].unfitness<=hijo.unfitness){
 				poblacion[mem].cuadrante=3;
 				rc << "| mem= "<<(mem);
 				rc << "| cua= "<<(poblacion[mem].cuadrante);
 			}
 			if(poblacion[mem].unfitness>hijo.unfitness){			
 				poblacion[mem].cuadrante=1;
-				//rc << "| mem= "<<(mem);
-				//rc << "| cua= "<<(poblacion[mem].cuadrante);
+				rc << "| mem= "<<(mem);
+				rc << "| cua= "<<(poblacion[mem].cuadrante);
 			}
-		}else{
-			if(poblacion[mem].unfitness<=hijo.unfitness){
-				poblacion[mem].cuadrante=4;
-				//rc << "| mem= "<<(mem);
-				//rc << "| cua= "<<(poblacion[mem].cuadrante);
-			}
-			if(poblacion[mem].unfitness>hijo.unfitness){			
-				poblacion[mem].cuadrante=2;
-				//rc << "| mem= "<<(mem);
-				//rc << "| cua= "<<(poblacion[mem].cuadrante);
-			}
-		}rc <<endl;
+		}//rc <<endl;
         }
 	reemplazar();
 	return 0;
@@ -325,45 +319,162 @@ void reemplazar(){
 	}
 	rt <<  "---------entre----------- " << endl;
 
-    //reemplaza un miembro en del 1er cuadrante
+ //reemplaza un miembro en del 1er cuadrante
 	while (cont!=1 && numeros.size() > 0){
 		//Genera una posicion en el vector de numeros y coge el numero de aquella posicion 
             	int indice = rand() % numeros.size();
-		rt << "| indice= "<<(indice); 
+		//rt << "| indice= "<<(indice); 
 		if (poblacion[indice].cuadrante==1){
 			for(mem=0; mem<al.p; mem++){
 				poblacion[indice].y[mem] = hijo.y[mem];
-				rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
-				ne=1;
+				//rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
+				ne=1;//encuentra un miembro en el primer cuadrante ne=1 sino sigue siendo 0
 			}
 			cont=1;	
 		}
 		//cout << "Numero aleatorio: " << numeros[indice] << endl;
-		rt << " cont: " << cont << endl;
+		//rt << " cont: " << cont << endl;
 		//borra el numero para que no vuelva a aparecer
             	numeros.erase(numeros.begin() + indice);	
 				
-		for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
+		/*for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
 			rt << "| " << (*my_iterator) ;					
-		}rt << endl;
+		}rt << endl;*/
 	}
 
 	if(ne==0){
 		for(int i = 0; i < POPSIZE&&t==0; i++){
 			if (poblacion[i].cuadrante==1){
 				for(mem=0; mem<al.p; mem++){
+					
+					poblacion[i].y[mem] = hijo.y[mem];
+					//rc << "| hijoCopia= "<<(poblacion[i].y[mem]); 
+					t=1;
+				}
+				ne=1;
+			}
+		}	
+	}
+
+//segundo cuadrante
+	for (int i = 0; i < POPSIZE; i++){
+		numeros.push_back(i);
+	}
+	if(ne==0){
+		while (cont!=1 && numeros.size() > 0){
+			//Genera una posicion en el vector de numeros y coge el numero de aquella posicion 
+		    	int indice = rand() % numeros.size();
+			rt << "| indice= "<<(indice); 
+			if (poblacion[indice].cuadrante==2){
+				for(mem=0; mem<al.p; mem++){
+					poblacion[indice].y[mem] = hijo.y[mem];
+					rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
+					ne=1;
+				}
+				cont=1;	
+			}
+			//cout << "Numero aleatorio: " << numeros[indice] << endl;
+			rt << " cont: " << cont << endl;
+			//borra el numero para que no vuelva a aparecer
+		    	numeros.erase(numeros.begin() + indice);	
+				
+			for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
+				rt << "| " << (*my_iterator) ;					
+			}rt << endl;
+		}
+	}
+	if(ne==0){
+		for(int i = 0; i < POPSIZE&&t==0; i++){
+			if (poblacion[i].cuadrante==2){
+				for(mem=0; mem<al.p; mem++){
 					poblacion[i].y[mem] = hijo.y[mem];
 					rc << "| hijoCopia= "<<(poblacion[i].y[mem]); 
 					t=1;
 				}
-					
+				ne=1;		
 			}
 		}	
-		ne=1;
+	}
+//tercer cuadrante
+	for (int i = 0; i < POPSIZE; i++){
+		numeros.push_back(i);
 	}
 	if(ne==0){
-
+		while (cont!=1 && numeros.size() > 0){
+			//Genera una posicion en el vector de numeros y coge el numero de aquella posicion 
+		    	int indice = rand() % numeros.size();
+			rt << "| indice= "<<(indice); 
+			if (poblacion[indice].cuadrante==3){
+				for(mem=0; mem<al.p; mem++){
+					poblacion[indice].y[mem] = hijo.y[mem];
+					rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
+					ne=1;
+				}
+				cont=1;	
+			}
+			//cout << "Numero aleatorio: " << numeros[indice] << endl;
+			rt << " cont: " << cont << endl;
+			//borra el numero para que no vuelva a aparecer
+		    	numeros.erase(numeros.begin() + indice);	
+				
+			for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
+				rt << "| " << (*my_iterator) ;					
+			}rt << endl;
+		}
 	}
+	if(ne==0){
+		for(int i = 0; i < POPSIZE&&t==0; i++){
+			if (poblacion[i].cuadrante==3){
+				for(mem=0; mem<al.p; mem++){
+					poblacion[i].y[mem] = hijo.y[mem];
+					rc << "| hijoCopia= "<<(poblacion[i].y[mem]); 
+					t=1;
+				}
+				ne=1;		
+			}
+		}	
+	}
+//cuarto cuadrante 
+	for (int i = 0; i < POPSIZE; i++){
+		numeros.push_back(i);
+	}
+	if(ne==0){
+		while (cont!=1 && numeros.size() > 0){
+			//Genera una posicion en el vector de numeros y coge el numero de aquella posicion 
+		    	int indice = rand() % numeros.size();
+			rt << "| indice= "<<(indice); 
+			if (poblacion[indice].cuadrante==4){
+				for(mem=0; mem<al.p; mem++){
+					poblacion[indice].y[mem] = hijo.y[mem];
+					rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
+					ne=1;
+				}
+				cont=1;	
+			}
+			//cout << "Numero aleatorio: " << numeros[indice] << endl;
+			rt << " cont: " << cont << endl;
+			//borra el numero para que no vuelva a aparecer
+		    	numeros.erase(numeros.begin() + indice);	
+				
+			for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
+				rt << "| " << (*my_iterator) ;					
+			}rt << endl;
+		}
+	}
+	if(ne==0){
+		for(int i = 0; i < POPSIZE&&t==0; i++){
+			if (poblacion[i].cuadrante==4){
+				for(mem=0; mem<al.p; mem++){
+					poblacion[i].y[mem] = hijo.y[mem];
+					rc << "| hijoCopia= "<<(poblacion[i].y[mem]); 
+					t=1;
+				}
+				ne=1;		
+			}
+		}	
+	}
+
+
 }
 
 int main(){
@@ -376,6 +487,20 @@ int main(){
 		evaluar();
 		crossover();
 		guardar_mejor();
+	}
+	/*imprimir nuevapoblacion*/
+		for(int pop=0; pop<POPSIZE; pop++){
+			for(int mem=0; mem<al.p; mem++){
+				pbn << "|x= "<<(poblacion[pop].y[mem]); 
+				
+			}pbn << "|mem= "<<(pop); 
+			pbn << endl;
+		}
+	double ximp[al.p+1];
+	for(int asd=0; asd<al.p; asd++){
+		//poblacion[POPSIZE].y[i] = poblacion[mejor].y[i];
+		ximp[asd] = al.bef[asd]+poblacion[POPSIZE].y[asd]*(al.last[asd]-al.bef[asd]);
+		pbn << "| mejor= "<<(ximp[asd]); 
 	}
 	//guardar_mejor();
 	//printf("ingrese numero de pistas: ");
