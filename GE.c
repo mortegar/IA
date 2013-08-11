@@ -104,6 +104,7 @@ int clasificar();
 void reemplazar();
 using namespace std;
 ofstream rc("ruteo.txt");
+ofstream rt("ruteo2.txt");
 
 /*funcion que da comienzo a la primera generacion de la poblacion*/
 void iniciar(void){ 
@@ -290,19 +291,19 @@ int clasificar(){
 			}
 			if(poblacion[mem].unfitness>hijo.unfitness){			
 				poblacion[mem].cuadrante=1;
-				rc << "| mem= "<<(mem);
-				rc << "| cua= "<<(poblacion[mem].cuadrante);
+				//rc << "| mem= "<<(mem);
+				//rc << "| cua= "<<(poblacion[mem].cuadrante);
 			}
 		}else{
 			if(poblacion[mem].unfitness<=hijo.unfitness){
 				poblacion[mem].cuadrante=4;
-				rc << "| mem= "<<(mem);
-				rc << "| cua= "<<(poblacion[mem].cuadrante);
+				//rc << "| mem= "<<(mem);
+				//rc << "| cua= "<<(poblacion[mem].cuadrante);
 			}
 			if(poblacion[mem].unfitness>hijo.unfitness){			
 				poblacion[mem].cuadrante=2;
-				rc << "| mem= "<<(mem);
-				rc << "| cua= "<<(poblacion[mem].cuadrante);
+				//rc << "| mem= "<<(mem);
+				//rc << "| cua= "<<(poblacion[mem].cuadrante);
 			}
 		}rc <<endl;
         }
@@ -313,31 +314,55 @@ int clasificar(){
 
 
 void reemplazar(){
-	int cont=0, mem;
+	int cont=0, mem,ne=0,t=0;
 	//int t;
 	vector<int> numeros;
+	vector<int>  ::iterator my_iterator;
 
     // Llenar el vector con los numeros desde 0 al tamaño de poblacion
 	for (int i = 0; i < POPSIZE; i++){
 		numeros.push_back(i);
 	}
+	rt <<  "---------entre----------- " << endl;
 
-    // Generar numeros
-	while (cont==0 || numeros.size() > 0){
+    //reemplaza un miembro en del 1er cuadrante
+	while (cont!=1 && numeros.size() > 0){
 		//Genera una posicion en el vector de numeros y coge el numero de aquella posicion 
-            		int indice = rand() % numeros.size();
-			if (poblacion[indice].cuadrante==1){
-				for(mem=0; mem<al.p; mem++){
-					poblacion[indice].y[mem] = hijo.y[mem];
-					rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
-				}
-				cont=1;	
+            	int indice = rand() % numeros.size();
+		rt << "| indice= "<<(indice); 
+		if (poblacion[indice].cuadrante==1){
+			for(mem=0; mem<al.p; mem++){
+				poblacion[indice].y[mem] = hijo.y[mem];
+				rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
+				ne=1;
 			}
-		
-        		//cout << "Numero aleatorio: " << numeros[indice] << endl;
-			cout << "cont: " << cont << endl;
+			cont=1;	
+		}
+		//cout << "Numero aleatorio: " << numeros[indice] << endl;
+		rt << " cont: " << cont << endl;
 		//borra el numero para que no vuelva a aparecer
-            		numeros.erase(numeros.begin() + indice);
+            	numeros.erase(numeros.begin() + indice);	
+				
+		for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
+			rt << "| " << (*my_iterator) ;					
+		}rt << endl;
+	}
+
+	if(ne==0){
+		for(int i = 0; i < POPSIZE&&t==0; i++){
+			if (poblacion[i].cuadrante==1){
+				for(mem=0; mem<al.p; mem++){
+					poblacion[i].y[mem] = hijo.y[mem];
+					rc << "| hijoCopia= "<<(poblacion[i].y[mem]); 
+					t=1;
+				}
+					
+			}
+		}	
+		ne=1;
+	}
+	if(ne==0){
+
 	}
 }
 
