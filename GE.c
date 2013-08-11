@@ -5,9 +5,9 @@
 #include <fstream>
 
 
-#define POPSIZE 2             /* poblacion size */ 
+#define POPSIZE 20             /* poblacion size */ 
 #define MAXGENS 100           /* max. number of generations */ 
-#define PXOVER 0.25            /* probability of crossover */ 
+#define PXOVER 0.85            /* probability of crossover */ 
 #define PMUTATION 0.01         /* probability of mutation */ 
 
 //variables globales
@@ -36,14 +36,15 @@ typedef struct{
 airland al;
 
 typedef struct{/* gen, miembro población */
-	float y[10];           /* a string of variables */
+	float y[80];           /* a string of variables */
 	double fitness;               /* valor fitness */
 	double unfitness; 		/* valor unfitness */
+	int pista [80]; 
 }genotype;
 
 genotype poblacion[POPSIZE+1]; //poblacion
 genotype newpoblacion[POPSIZE+1]; //nueva poblacion
-
+genotype hijo;
 
 unsigned int linea=0;
 //lee archivo por entrada estandar, linea por linea pues los archivos entregados poseen la misma estructura
@@ -106,9 +107,9 @@ void iniciar(void){
  	    for (int i = 0; i < al.p; i++)
 	    { 
  		poblacion[j].y[i]= (float)rand()/(float)RAND_MAX;
-		//rc << "| y= "<<(poblacion[j].y[i]);
+		rc << "| y= "<<(poblacion[j].y[i]);
 		//printf("y: %.5f, ",poblacion[j].y[i]);
-	    }//rc <<endl;
+	    }rc <<endl;
     }
     return;
 }
@@ -125,7 +126,7 @@ void evaluar(void) {
 		for(i=0; i<al.p; i++){
 			x[i] = al.bef[i]+poblacion[mem].y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
 			//printf("%.5f, ", x[i]);
-			rc << "| x= "<<(x[i]);
+			//rc << "| x= "<<(x[i]);
 			d[i]=x[i]-al.target[i]; // desviacion
 			if(d[i]<0){ // aterriza antes target time
 				a[i]=-d[i];
@@ -141,7 +142,7 @@ void evaluar(void) {
 			}
 			f=(al.pbef[i]*a[i]+al.plast[i]*r[i]);
 			sumf[mem]=sumf[mem]+f;	
-		}rc <<endl;	
+		}//rc <<endl;	
 		for(i=0; i<al.p; i++){// calculo unfitness		
 			for(j=0; j<al.p; j++){
 				//rc << "| j= "<<(j);
@@ -160,9 +161,45 @@ void evaluar(void) {
 		//printf("FITNESS %.5f\n", poblacion[mem].fitness);
 		//rc << "| FITNESS= "<<(poblacion[mem].fitness);
 		//rc <<endl;//printf("UNFITNESS %.5f\n", poblacion[mem].unfitness);
-		rc << "| UNFITNESS= "<<(poblacion[mem].unfitness);
-		rc <<endl;
+		//rc << "| UNFITNESS= "<<(poblacion[mem].unfitness);
+		//rc <<endl;
 	}
+}
+
+/*cruzamiento uniforme 2 padres->1 hijo,toma cada valor al azar de los dos padres*/
+void Xover(int one, int two){
+    int i;
+    float point;    /* crossover point */
+	for(i=0; i<al.p; i++){
+		point = rand()%1000/1000.0;
+		rc << "|punto= "<<(point);
+		rc << "|i= "<<(i);
+		
+		if (point>=0.5){
+			hijo.y[i]=poblacion[one].y[i];
+	    	}else{
+			hijo.y[i]=poblacion[two].y[i];
+		}rc << "| hijo= "<<(hijo.y[i]); 
+	} rc <<endl;
+}
+
+void crossover(void) { 
+    int mem, one; 
+    int first  =  0;
+
+    /* contar el número de miembros elegidos */ 
+    double x;
+    for(mem=0; mem<POPSIZE; ++mem){
+        x = rand()%1000/1000.0;
+	printf("%f",x);
+	if(x < PXOVER){
+            ++first;
+	    if(first % 2 == 0)
+               Xover(one, mem);
+            else
+                one = mem;
+        }
+    }
 }
 
 void guardar_mejor() {
@@ -183,6 +220,9 @@ int main(){
 	leer_archivo();
 	iniciar();
 	evaluar(); 
+	crossover();
+	//printf("ingrese numero de pistas: ");
+	//scanf("%d",&al.pista);
 	//variable(poblacion.y);
 	return 0;
 }

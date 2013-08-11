@@ -30,10 +30,10 @@ void evaluate(void) {
 	for(i=0; i<NVARS; i++)
 	{
 	    x[i+1] = population[mem].gene[i];
-	    printf("%.5f, ", x[i+1]);
+	   // printf("%.5f, ", x[i+1]);
 	}
         population[mem].fitness = 21.5 + x[1]*sin(4*PI*x[1]) + x[2]*sin(20*PI*x[2]);
-	printf("%.5f\n", population[mem].fitness);
+	//printf("%.5f\n", population[mem].fitness);
     }
     getchar();
 }
@@ -144,6 +144,7 @@ void crossover(void) {
     double x;
     for(mem=0; mem<POPSIZE; ++mem){
         x = rand()%1000/1000.0;
+	printf("%d",x);
 	if(x < PXOVER){
             ++first;
 	    if(first % 2 == 0)
