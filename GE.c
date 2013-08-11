@@ -323,8 +323,7 @@ void reemplazar(){
 	}
 
     // Generar numeros
-	while (cont==0){
-		if (numeros.size() > 0){
+	while (cont==0 || numeros.size() > 0){
 		//Genera una posicion en el vector de numeros y coge el numero de aquella posicion 
             		int indice = rand() % numeros.size();
 			if (poblacion[indice].cuadrante==1){
@@ -332,67 +331,14 @@ void reemplazar(){
 					poblacion[indice].y[mem] = hijo.y[mem];
 					rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
 				}
-				cont=1;
-				
+				cont=1;	
 			}
-			if (poblacion[indice].cuadrante==2){
-				for(mem=0; mem<al.p; mem++){
-					poblacion[indice].y[mem] = hijo.y[mem];
-					rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
-				}
-				cont=1;
-				
-			}
-			if (poblacion[indice].cuadrante==3){
-				for(mem=0; mem<al.p; mem++){
-					poblacion[indice].y[mem] = hijo.y[mem];
-					rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
-				}
-				cont=1;
-				
-			}
-			if (poblacion[indice].cuadrante==4){
-				for(mem=0; mem<al.p; mem++){
-					poblacion[indice].y[mem] = hijo.y[mem];
-					rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
-				}
-				cont=1;
-				
-			}
-        		cout << "Numero aleatorio: " << numeros[indice] << endl;
+		
+        		//cout << "Numero aleatorio: " << numeros[indice] << endl;
+			cout << "cont: " << cont << endl;
 		//borra el numero para que no vuelva a aparecer
             		numeros.erase(numeros.begin() + indice);
-        	}
-		else{
-		cout << "No se pueden generar mas numeros." << endl;
-		}
 	}
-	/*for(mem=0; mem<POPSIZE; ++mem){
-		if(poblacion[mem].fitness<=hijo.fitness){
-			if(poblacion[mem].unfitness<=hijo.unfitness){
-				poblacion[mem].cuadrante=3;
-				//rc << "| mem= "<<(mem);
-				//rc << "| cua= "<<(poblacion[mem].cuadrante);
-			}
-			if(poblacion[mem].unfitness>hijo.unfitness){			
-				poblacion[mem].cuadrante=1;
-				//rc << "| mem= "<<(mem);
-				//rc << "| cua= "<<(poblacion[mem].cuadrante);
-			}
-		}else{
-			if(poblacion[mem].unfitness<=hijo.unfitness){
-				poblacion[mem].cuadrante=4;
-				//rc << "| mem= "<<(mem);
-				//rc << "| cua= "<<(poblacion[mem].cuadrante);
-			}
-			if(poblacion[mem].unfitness>hijo.unfitness){			
-				poblacion[mem].cuadrante=2;
-				//rc << "| mem= "<<(mem);
-				//rc << "| cua= "<<(poblacion[mem].cuadrante);
-			}
-		}rc <<endl;
-        }*/
-
 }
 
 int main(){
