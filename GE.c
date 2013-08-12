@@ -10,9 +10,6 @@
 #define PXOVER 0.85            /* probability of crossover */ 
 #define PMUTATION 0.01         /* probability of mutation */ 
 
-//variables globales
-
-//int x[80];
 
 //estructura 
 typedef struct{
@@ -130,7 +127,7 @@ void evaluar(void) {
 		sumu[mem]=0;
 	}
 	for(mem=0; mem<POPSIZE; mem++){ //calculo de fitness
-		pb << "| mem= "<<(mem);
+		//pb << "| mem= "<<(mem);
 		for(i=0; i<al.p; i++){
 			x[i] = al.bef[i]+poblacion[mem].y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
 			//printf("%.5f, ", x[i]);
@@ -420,8 +417,8 @@ void reemplazar(){
 				
 		/*	for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
 				rt << "| " << (*my_iterator) ;					
-			}rt << endl;
-		}*/
+			}rt << endl;*/
+		}
 	}
 	if(ne==0){
 		for(int i = 0; i < POPSIZE&&t==0; i++){
@@ -478,42 +475,6 @@ void reemplazar(){
 
 }
 
-void evaluarm();
-
-int main(){
-	srand(time(NULL));
-	leer_archivo();
-	iniciar();
-	
-
-	for(int i=0;i<MAXGENS;i++){ 
-		evaluar();
-		crossover();
-		guardar_mejor();
-	}
-	/*imprimir nuevapoblacion
-		for(int pop=0; pop<POPSIZE; pop++){
-			for(int mem=0; mem<al.p; mem++){
-				pbn << "|x= "<<(poblacion[pop].y[mem]); 
-				
-			}pbn << "|mem= "<<(pop); 
-			pbn << endl;
-		}*/
-	/*double ximp[al.p+1];
-	for(int asd=0; asd<al.p; asd++){
-		//poblacion[POPSIZE].y[i] = poblacion[mejor].y[i];
-		ximp[asd] = al.bef[asd]+poblacion[POPSIZE].y[asd]*(al.last[asd]-al.bef[asd]);
-		pbn << "| mejor= "<<(ximp[asd]); 
-	}*/
-
-	evaluarm();
-	//guardar_mejor();
-	//printf("ingrese numero de pistas: ");
-	//scanf("%d",&al.pista);
-	//variable(poblacion.y);
-	return 0;
-}
-
 void evaluarm() { 
 	int i,s,j; 
 	double x[al.p+1], d[al.p+1], a[al.p+1], r[al.p+1];
@@ -563,4 +524,43 @@ void evaluarm() {
 	pbn << "| UNFITNESS= "<<(hijo.unfitness);
 	pbn <<endl;
 }
+
+
+int main(int argc, char *argv[]){
+	 
+	//srand(time(NULL));
+	leer_archivo();
+
+	 al.pista = atoi(argv[1]);
+	printf("%d",al.pista);
+	leer_archivo();
+	iniciar();
+
+	for(int i=0;i<MAXGENS;i++){ 
+		evaluar();
+		crossover();
+		guardar_mejor();
+	}
+	/*imprimir nuevapoblacion
+		for(int pop=0; pop<POPSIZE; pop++){
+			for(int mem=0; mem<al.p; mem++){
+				pbn << "|x= "<<(poblacion[pop].y[mem]); 
+				
+			}pbn << "|mem= "<<(pop); 
+			pbn << endl;
+		}*/
+	/*double ximp[al.p+1];
+	for(int asd=0; asd<al.p; asd++){
+		//poblacion[POPSIZE].y[i] = poblacion[mejor].y[i];
+		ximp[asd] = al.bef[asd]+poblacion[POPSIZE].y[asd]*(al.last[asd]-al.bef[asd]);
+		pbn << "| mejor= "<<(ximp[asd]); 
+	}*/
+
+	evaluarm();
+	//guardar_mejor();
+	
+	//variable(poblacion.y);
+	return 0;
+}
+
 
