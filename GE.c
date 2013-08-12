@@ -99,9 +99,9 @@ int i=0,k=0;
 int clasificar();
 void reemplazar();
 using namespace std;
-ofstream rc("ruteo.txt");
-ofstream rt("ruteo2.txt");
-ofstream pb("pb.txt");
+//ofstream rc("ruteo.txt");
+//ofstream rt("ruteo2.txt");
+//ofstream pb("pb.txt");
 ofstream pbn("pbn.txt");
 
 /*funcion que da comienzo a la primera generacion de la poblacion*/
@@ -134,7 +134,7 @@ void evaluar(void) {
 		for(i=0; i<al.p; i++){
 			x[i] = al.bef[i]+poblacion[mem].y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
 			//printf("%.5f, ", x[i]);
-			pb << "| y= "<<(poblacion[mem].y[i]);			
+			//pb << "| y= "<<(poblacion[mem].y[i]);			
 			d[i]=x[i]-al.target[i]; // desviacion
 			if(d[i]<0){ // aterriza antes target time
 				a[i]=-d[i];
@@ -162,10 +162,10 @@ void evaluar(void) {
 		poblacion[mem].fitness=sumf[mem];
 		poblacion[mem].unfitness=sumu[mem];
 		//printf("FITNESS %.5f\n", poblacion[mem].fitness);
-		pb << "| FITNESS= "<<(poblacion[mem].fitness);
+		//pb << "| FITNESS= "<<(poblacion[mem].fitness);
 		//rc <<endl;//printf("UNFITNESS %.5f\n", poblacion[mem].unfitness);
 		//rc << "| UNFITNESS= "<<(poblacion[mem].unfitness);
-		pb <<endl;
+		//pb <<endl;
 	}
 }
 
@@ -180,7 +180,7 @@ void evaluarh() {
 	//calculo de fitness
 	for(i=0; i<al.p; i++){
 		x[i] = al.bef[i]+hijo.y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
-		rc << "| x= "<<(x[i]);
+		//rc << "| x= "<<(x[i]);
 		d[i]=x[i]-al.target[i]; // desviacion
 		if(d[i]<0){ // aterriza antes target time
 			a[i]=-d[i];
@@ -196,7 +196,7 @@ void evaluarh() {
 		}
 		f=(al.pbef[i]*a[i]+al.plast[i]*r[i]);
 		sumf=sumf+f;	
-	}rc <<endl;	
+	}//rc <<endl;	
 	for(i=0; i<al.p; i++){// calculo unfitness		
 		for(j=0; j<al.p; j++){
 			s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
@@ -208,11 +208,12 @@ void evaluarh() {
 	hijo.fitness=sumf;
 	hijo.unfitness=sumu;
 	
-	rc << "| FITNESS mejor= "<<(hijo.fitness);
-	rc <<endl;
+	//rc << "| FITNESS mejor= "<<(hijo.fitness);
+	//rc <<endl;
 	//rc << "| UNFITNESS= "<<(hijo.unfitness);
 	//rc <<endl;
 }
+
 
 /*cruzamiento uniforme 2 padres->1 hijo,toma cada valor al azar de los dos padres*/
 void Xover(int one, int two){
@@ -227,10 +228,10 @@ void Xover(int one, int two){
 			hijo.y[i]=poblacion[one].y[i];
 	    	}else{
 			hijo.y[i]=poblacion[two].y[i];
-		}rc << "| hijo= "<<(hijo.y[i]); 
+		}//rc << "| hijo= "<<(hijo.y[i]); 
 	} 
 	clasificar();	
-	rc <<endl;
+	//rc <<endl;
 }
 /* seleciona los padres a cruzar*/
 void crossover(void) { 
@@ -264,7 +265,7 @@ void guardar_mejor() {
     /*Se copia el mejor miembro*/
 	for(i=0; i<al.p; i++){
 		poblacion[POPSIZE].y[i] = poblacion[mejor].y[i];
-		rc << "| mejor= "<<(poblacion[POPSIZE].y[i]); 
+		//rc << "| mejor= "<<(poblacion[POPSIZE].y[i]); 
 	}
 	//rc << "| popz= "<<(POPSIZE); 
 	//rc << "| fitmejor= "<<(poblacion[POPSIZE].fitness); 
@@ -279,25 +280,25 @@ int clasificar(){
 		if(poblacion[mem].fitness<=hijo.fitness){
 			if(poblacion[mem].unfitness<=hijo.unfitness){
 				poblacion[mem].cuadrante=4;
-				rc << "| mem= "<<(mem);
-				rc << "| cua= "<<(poblacion[mem].cuadrante);
+				//rc << "| mem= "<<(mem);
+				//rc << "| cua= "<<(poblacion[mem].cuadrante);
 			}
 			if(poblacion[mem].unfitness>hijo.unfitness){			
 				poblacion[mem].cuadrante=2; 
-				rc << "| mem= "<<(mem);
-				rc << "| cua= "<<(poblacion[mem].cuadrante);
+				//rc << "| mem= "<<(mem);
+				//rc << "| cua= "<<(poblacion[mem].cuadrante);
 				//rc <<endl;
 			}
 		}else{
 			if(poblacion[mem].unfitness<=hijo.unfitness){
 				poblacion[mem].cuadrante=3;
-				rc << "| mem= "<<(mem);
-				rc << "| cua= "<<(poblacion[mem].cuadrante);
+				//rc << "| mem= "<<(mem);
+				//rc << "| cua= "<<(poblacion[mem].cuadrante);
 			}
 			if(poblacion[mem].unfitness>hijo.unfitness){			
 				poblacion[mem].cuadrante=1;
-				rc << "| mem= "<<(mem);
-				rc << "| cua= "<<(poblacion[mem].cuadrante);
+				//rc << "| mem= "<<(mem);
+				//rc << "| cua= "<<(poblacion[mem].cuadrante);
 			}
 		}//rc <<endl;
         }
@@ -317,7 +318,7 @@ void reemplazar(){
 	for (int i = 0; i < POPSIZE; i++){
 		numeros.push_back(i);
 	}
-	rt <<  "---------entre----------- " << endl;
+	//rt <<  "---------entre----------- " << endl;
 
  //reemplaza un miembro en del 1er cuadrante
 	while (cont!=1 && numeros.size() > 0){
@@ -364,23 +365,23 @@ void reemplazar(){
 		while (cont!=1 && numeros.size() > 0){
 			//Genera una posicion en el vector de numeros y coge el numero de aquella posicion 
 		    	int indice = rand() % numeros.size();
-			rt << "| indice= "<<(indice); 
+			//rt << "| indice= "<<(indice); 
 			if (poblacion[indice].cuadrante==2){
 				for(mem=0; mem<al.p; mem++){
 					poblacion[indice].y[mem] = hijo.y[mem];
-					rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
+					//rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
 					ne=1;
 				}
 				cont=1;	
 			}
 			//cout << "Numero aleatorio: " << numeros[indice] << endl;
-			rt << " cont: " << cont << endl;
+			//rt << " cont: " << cont << endl;
 			//borra el numero para que no vuelva a aparecer
 		    	numeros.erase(numeros.begin() + indice);	
 				
-			for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
+			/*for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
 				rt << "| " << (*my_iterator) ;					
-			}rt << endl;
+			}rt << endl;*/
 		}
 	}
 	if(ne==0){
@@ -388,7 +389,7 @@ void reemplazar(){
 			if (poblacion[i].cuadrante==2){
 				for(mem=0; mem<al.p; mem++){
 					poblacion[i].y[mem] = hijo.y[mem];
-					rc << "| hijoCopia= "<<(poblacion[i].y[mem]); 
+					//rc << "| hijoCopia= "<<(poblacion[i].y[mem]); 
 					t=1;
 				}
 				ne=1;		
@@ -403,31 +404,31 @@ void reemplazar(){
 		while (cont!=1 && numeros.size() > 0){
 			//Genera una posicion en el vector de numeros y coge el numero de aquella posicion 
 		    	int indice = rand() % numeros.size();
-			rt << "| indice= "<<(indice); 
+			//rt << "| indice= "<<(indice); 
 			if (poblacion[indice].cuadrante==3){
 				for(mem=0; mem<al.p; mem++){
 					poblacion[indice].y[mem] = hijo.y[mem];
-					rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
+					//rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
 					ne=1;
 				}
 				cont=1;	
 			}
 			//cout << "Numero aleatorio: " << numeros[indice] << endl;
-			rt << " cont: " << cont << endl;
+			//rt << " cont: " << cont << endl;
 			//borra el numero para que no vuelva a aparecer
 		    	numeros.erase(numeros.begin() + indice);	
 				
-			for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
+		/*	for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
 				rt << "| " << (*my_iterator) ;					
 			}rt << endl;
-		}
+		}*/
 	}
 	if(ne==0){
 		for(int i = 0; i < POPSIZE&&t==0; i++){
 			if (poblacion[i].cuadrante==3){
 				for(mem=0; mem<al.p; mem++){
 					poblacion[i].y[mem] = hijo.y[mem];
-					rc << "| hijoCopia= "<<(poblacion[i].y[mem]); 
+					//rc << "| hijoCopia= "<<(poblacion[i].y[mem]); 
 					t=1;
 				}
 				ne=1;		
@@ -442,23 +443,23 @@ void reemplazar(){
 		while (cont!=1 && numeros.size() > 0){
 			//Genera una posicion en el vector de numeros y coge el numero de aquella posicion 
 		    	int indice = rand() % numeros.size();
-			rt << "| indice= "<<(indice); 
+			//rt << "| indice= "<<(indice); 
 			if (poblacion[indice].cuadrante==4){
 				for(mem=0; mem<al.p; mem++){
 					poblacion[indice].y[mem] = hijo.y[mem];
-					rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
+					//rc << "| hijoCopia= "<<(poblacion[indice].y[mem]); 
 					ne=1;
 				}
 				cont=1;	
 			}
 			//cout << "Numero aleatorio: " << numeros[indice] << endl;
-			rt << " cont: " << cont << endl;
+			//rt << " cont: " << cont << endl;
 			//borra el numero para que no vuelva a aparecer
 		    	numeros.erase(numeros.begin() + indice);	
 				
-			for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
+			/*for(my_iterator = numeros.begin(); my_iterator < numeros.end(); my_iterator++){
 				rt << "| " << (*my_iterator) ;					
-			}rt << endl;
+			}rt << endl;*/
 		}
 	}
 	if(ne==0){
@@ -466,7 +467,7 @@ void reemplazar(){
 			if (poblacion[i].cuadrante==4){
 				for(mem=0; mem<al.p; mem++){
 					poblacion[i].y[mem] = hijo.y[mem];
-					rc << "| hijoCopia= "<<(poblacion[i].y[mem]); 
+					//rc << "| hijoCopia= "<<(poblacion[i].y[mem]); 
 					t=1;
 				}
 				ne=1;		
@@ -477,8 +478,10 @@ void reemplazar(){
 
 }
 
+void evaluarm();
+
 int main(){
-	//srand(time(NULL));
+	srand(time(NULL));
 	leer_archivo();
 	iniciar();
 	
@@ -488,23 +491,76 @@ int main(){
 		crossover();
 		guardar_mejor();
 	}
-	/*imprimir nuevapoblacion*/
+	/*imprimir nuevapoblacion
 		for(int pop=0; pop<POPSIZE; pop++){
 			for(int mem=0; mem<al.p; mem++){
 				pbn << "|x= "<<(poblacion[pop].y[mem]); 
 				
 			}pbn << "|mem= "<<(pop); 
 			pbn << endl;
-		}
-	double ximp[al.p+1];
+		}*/
+	/*double ximp[al.p+1];
 	for(int asd=0; asd<al.p; asd++){
 		//poblacion[POPSIZE].y[i] = poblacion[mejor].y[i];
 		ximp[asd] = al.bef[asd]+poblacion[POPSIZE].y[asd]*(al.last[asd]-al.bef[asd]);
 		pbn << "| mejor= "<<(ximp[asd]); 
-	}
+	}*/
+
+	evaluarm();
 	//guardar_mejor();
 	//printf("ingrese numero de pistas: ");
 	//scanf("%d",&al.pista);
 	//variable(poblacion.y);
 	return 0;
 }
+
+void evaluarm() { 
+	int i,s,j; 
+	double x[al.p+1], d[al.p+1], a[al.p+1], r[al.p+1];
+	float f=0, sumf, sumu;
+	// sumatoria comienza en 0
+	sumf=0;
+	sumu=0;
+	//calculo de fitness
+	for(i=0; i<al.p; i++){
+		x[i] = al.bef[i]+poblacion[POPSIZE].y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
+		//rc << "| x= "<<(x[i]);
+		d[i]=x[i]-al.target[i]; // desviacion
+		if(d[i]<0){ // aterriza antes target time
+			a[i]=-d[i];
+			r[i]=0;
+		}
+		if(d[i]>0){ // aterriza despues target time
+			r[i]=d[i];
+			a[i]=0;
+		}
+		if(d[i]==0){ // aterriza justo en target time 
+			a[i]=0;
+			r[i]=0;
+		}
+		f=(al.pbef[i]*a[i]+al.plast[i]*r[i]);
+		sumf=sumf+f;	
+	}//rc <<endl;	
+	for(i=0; i<al.p; i++){// calculo unfitness		
+		for(j=0; j<al.p; j++){
+			s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
+			if(s>0&&j>i){ 
+				f=s;
+			}else f=0; //valor distinto de 0 la separacion fue violada
+		}sumu=sumu+f;
+	}
+	poblacion[POPSIZE].fitness=sumf;
+	poblacion[POPSIZE].unfitness=sumu;
+	
+
+	double ximp[al.p+1];
+	for(int asd=0; asd<al.p; asd++){
+		ximp[asd] = al.bef[asd]+poblacion[POPSIZE].y[asd]*(al.last[asd]-al.bef[asd]);
+		pbn << "| mejor= "<<(ximp[asd]); 
+	}
+	pbn << "| FITNESS= "<<(poblacion[POPSIZE].fitness); 
+	pbn <<endl;
+	pbn << "| UNFITNESS= "<<(hijo.unfitness);
+	pbn <<endl;
+}
+
