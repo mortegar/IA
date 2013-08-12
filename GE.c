@@ -5,11 +5,11 @@
 #include <fstream>
 #include <vector>
 
-#define POPSIZE 70            /* poblacion size */ 
-#define MAXGENS 500          /* max. number of generations */ 
-#define PXOVER 0.90            /* probability of crossover */ 
-#define PMUTATION 0.01         /* probability of mutation */ 
-#define ACJ 500            /* probability of crossover */ 
+#define POPSIZE 900            /* tamanio de la poblacion */ 
+#define MAXGENS 1600          /* maximo numero de poblacion */ 
+#define PXOVER 0.90            /* probabilidad de cruzamiento */ 
+#define PMUTATION 0.01         /* probabilidad de mutacion */ 
+#define ACJ 1000            /* tamanio de arreglos */ 
 
 
 //estructura 
@@ -51,7 +51,7 @@ unsigned int linea=0;
 /*Lee archivo por entrada estandar, linea por linea pues los archivos entregados poseen la misma estructura*/
 int leer_archivo(){
 char *ptr;
-char mje[80];
+char mje[ACJ];
 int j,n;
 int i=0,k=0;
 
@@ -122,7 +122,7 @@ void iniciar(void){
 void evaluar(void) { 
 	int mem; int i,s=0,j; 
 	double x[al.p+1], d[al.p+1], a[al.p+1], r[al.p+1];
-	float f=0, sumf[80], sumu[80];
+	float f=0,uf=0, sumf[ACJ], sumu[ACJ];
 	for(mem=0; mem<POPSIZE; mem++){ // sumatoria comienza en 0
 		sumf[mem]=0;
 		sumu[mem]=0;
@@ -154,15 +154,15 @@ void evaluar(void) {
 				if(poblacion[mem].pista[j]==poblacion[mem].pista[i]){
 					s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
 					if(s>0&&j>i){ 
-						f=s;
+						uf=s;
 						if(poblacion[mem].pista[j]<al.pista){ 
 							poblacion[mem].pista[j]=poblacion[mem].pista[j]+1;
 							//rc << "| entre a cambio pista ";
-							f=0;
+							uf=0;
 						}
-					}else f=0;
+					}else uf=0;
 				} 				
-			}sumu[mem]=sumu[mem]+f;//valor distinto de 0 la separacion fue violada
+			}sumu[mem]=sumu[mem]+uf;//valor distinto de 0 la separacion fue violada
 		}
 		poblacion[mem].fitness=sumf[mem];
 		poblacion[mem].unfitness=sumu[mem];
@@ -178,7 +178,7 @@ void evaluar(void) {
 void evaluarh() { 
 	int i,s,j; 
 	double x[al.p+1], d[al.p+1], a[al.p+1], r[al.p+1];
-	float f=0, sumf, sumu;
+	float f=0,uf=0, sumf, sumu;
 	// sumatoria comienza en 0
 	sumf=0;
 	sumu=0;
@@ -208,15 +208,15 @@ void evaluarh() {
 			if(hijo.pista[j]==hijo.pista[i]){
 				s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
 				if(s>0&&j>i){ 
-					f=s;
+					uf=s;
 					if(hijo.pista[j]<al.pista){ 
 						hijo.pista[j]=hijo.pista[j]+1;
 						//pbn << "|cta| ";
-						f=0;
+						uf=0;
 					}
-				}else f=0;
+				}else uf=0;
 			} 				
-		}sumu=sumu+f;//valor distinto de 0 la separacion fue violada
+		}sumu=sumu+uf;//valor distinto de 0 la separacion fue violada
 	}
 	hijo.fitness=sumf;
 	hijo.unfitness=sumu;
@@ -280,6 +280,7 @@ void muta(void) {
 	//rc <<endl;
 	if(x < PMUTATION){
           poblacion[mem].y[point] =(float)rand()/(float)RAND_MAX;
+	  //poblacion[mem].y[point] = al.target[point];
         }
     }
 }
@@ -515,7 +516,7 @@ void evaluarm() {
 	int i,s,j; 
 	double x[al.p+1];
 	//double d[al.p+1], a[al.p+1], r[al.p+1];
-	float f=0, sumf, sumu;
+	float uf=0, sumf, sumu;
 	// sumatoria comienza en 0
 	sumf=0;
 	sumu=0;
@@ -544,15 +545,15 @@ void evaluarm() {
 			if(poblacion[POPSIZE].pista[j]==poblacion[POPSIZE].pista[i]){
 				s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
 				if(s>0&&j>i){ 
-					f=s;
+					uf=s;
 					if(poblacion[POPSIZE].pista[j]<al.pista){ 
 						poblacion[POPSIZE].pista[j]=poblacion[POPSIZE].pista[j]+1;
 						//pbn << "|cta| ";
-						f=0;
+						uf=0;
 					}
-				}else f=0;
+				}else uf=0;
 			} 				
-		}sumu=sumu+f;//valor distinto de 0 la separacion fue violada
+		}sumu=sumu+uf;//valor distinto de 0 la separacion fue violada
 	}
 	//poblacion[POPSIZE].fitness=sumf;
 	poblacion[POPSIZE].unfitness=sumu;
