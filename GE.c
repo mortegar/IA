@@ -6,9 +6,10 @@
 #include <vector>
 
 #define POPSIZE 70            /* poblacion size */ 
-#define MAXGENS 100          /* max. number of generations */ 
-#define PXOVER 0.85            /* probability of crossover */ 
+#define MAXGENS 200          /* max. number of generations */ 
+#define PXOVER 0.90            /* probability of crossover */ 
 #define PMUTATION 0.01         /* probability of mutation */ 
+#define ACJ 500            /* probability of crossover */ 
 
 
 //estructura 
@@ -16,27 +17,27 @@ typedef struct{
 	//numero total de aviones
        int p;
 	//tiempo mas temprano en intervalo de tiempo de avion i
-       int bef[80];
+       int bef[ACJ];
 	//tiempo esperado de aterrizaje para avion i
-       int target[80];
+       int target[ACJ];
 	//tiempo mas tarde en intervalo de tiempo avion i
-       int last[80];
+       int last[ACJ];
 	//penalizacion por unidad de tiempo para el avion i por aterrizar antes del tiempo esperado
-       float pbef[80];
+       float pbef[ACJ];
 	//penalizacion por unidad de tiempo para el avion i por aterrizar luego del tiempo esperado
-      	float plast[80];
+      	float plast[ACJ];
        //Separacion necesaria entre aterrizaje avion i y aterrizaje avion j
-       int sep[80][80];    
+       int sep[ACJ][ACJ];    
 	//numero total de pistas
        int pista;
 }airland;
 airland al;
 
 typedef struct{/* gen, miembro población */
-	float y[80];           /* a string of variables */
+	float y[ACJ];           /* a string of variables */
 	double fitness;               /* valor fitness */
 	double unfitness; 		/* valor unfitness */
-	int pista [80]; 
+	int pista[ACJ]; 
 	int cuadrante;
 }genotype;
 
@@ -96,7 +97,7 @@ int i=0,k=0;
 int clasificar();
 void reemplazar();
 using namespace std;
-//ofstream rc("ruteo.txt");
+ofstream rc("ruteo.txt");
 //ofstream rt("ruteo2.txt");
 //ofstream pb("pb.txt");
 ofstream pbn("pbn.txt");
@@ -106,20 +107,20 @@ void iniciar(void){
 
     for (int j = 0; j < POPSIZE; j++) {
 	poblacion[j].fitness = 0; //inicializa en cero el valor de fitness para cada individuo 
-	
  	    for (int i = 0; i < al.p; i++)
 	    { 
  		poblacion[j].y[i]= (float)rand()/(float)RAND_MAX;
+		poblacion[j].pista[i] = 1; //inicializa a todos los aviones que aterricen en la pista 1 
 		//rc << "| y= "<<(poblacion[j].y[i]);
 		//printf("y: %.5f, ",poblacion[j].y[i]);
 	    }//rc <<endl;
     }
     return;
 }
-
+//void cambia_pista();
 /*funcion que evalua el fitness y unfitness de cada miembro de la poblacion */
 void evaluar(void) { 
-	int mem; int i,s,j; 
+	int mem; int i,s=0,j; 
 	double x[al.p+1], d[al.p+1], a[al.p+1], r[al.p+1];
 	float f=0, sumf[80], sumu[80];
 	for(mem=0; mem<POPSIZE; mem++){ // sumatoria comienza en 0
@@ -150,19 +151,26 @@ void evaluar(void) {
 		}//rc <<endl;	
 		for(i=0; i<al.p; i++){// calculo unfitness		
 			for(j=0; j<al.p; j++){
-				s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
-				if(s>0&&j>i){ 
-					f=s;
-				}else f=0; //valor distinto de 0 la separacion fue violada
-			}sumu[mem]=sumu[mem]+f;
+				if(poblacion[mem].pista[j]==poblacion[mem].pista[i]){
+					s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
+					if(s>0&&j>i){ 
+						f=s;
+						if(poblacion[mem].pista[j]<al.pista){ 
+							poblacion[mem].pista[j]=poblacion[mem].pista[j]+1;
+							//rc << "| entre a cambio pista ";
+							f=0;
+						}
+					}else f=0;
+				} 				
+			}sumu[mem]=sumu[mem]+f;//valor distinto de 0 la separacion fue violada
 		}
 		poblacion[mem].fitness=sumf[mem];
 		poblacion[mem].unfitness=sumu[mem];
 		//printf("FITNESS %.5f\n", poblacion[mem].fitness);
 		//pb << "| FITNESS= "<<(poblacion[mem].fitness);
 		//rc <<endl;//printf("UNFITNESS %.5f\n", poblacion[mem].unfitness);
-		//rc << "| UNFITNESS= "<<(poblacion[mem].unfitness);
-		//pb <<endl;
+		rc << "| UNFITNESS= "<<(poblacion[mem].unfitness);
+		rc <<endl;
 	}
 }
 
@@ -194,13 +202,21 @@ void evaluarh() {
 		f=(al.pbef[i]*a[i]+al.plast[i]*r[i]);
 		sumf=sumf+f;	
 	}//rc <<endl;	
+	
 	for(i=0; i<al.p; i++){// calculo unfitness		
 		for(j=0; j<al.p; j++){
-			s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
-			if(s>0&&j>i){ 
-				f=s;
-			}else f=0; //valor distinto de 0 la separacion fue violada
-		}sumu=sumu+f;
+			if(hijo.pista[j]==hijo.pista[i]){
+				s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
+				if(s>0&&j>i){ 
+					f=s;
+					if(hijo.pista[j]<al.pista){ 
+						hijo.pista[j]=hijo.pista[j]+1;
+						//pbn << "|cta| ";
+						f=0;
+					}
+				}else f=0;
+			} 				
+		}sumu=sumu+f;//valor distinto de 0 la separacion fue violada
 	}
 	hijo.fitness=sumf;
 	hijo.unfitness=sumu;
@@ -211,7 +227,10 @@ void evaluarh() {
 	//rc <<endl;
 }
 
+/*void cambia_pista(genotype np){
+	np.pista
 
+}*/
 /*cruzamiento uniforme 2 padres->1 hijo,toma cada valor al azar de los dos padres*/
 void Xover(int one, int two){
     int i;
@@ -251,21 +270,24 @@ void crossover(void) {
 }
 
 void guardar_mejor() {
-	int mem; int i; int mejor = 0; 
- 
+	int mem; int i; //int mejor = 0; 
+ 	
 	for(mem=0; mem<POPSIZE; mem++){
 		if(poblacion[mem].fitness < poblacion[POPSIZE].fitness){ //busca el mejor miembro
-			mejor = mem;
+			//mejor = mem;
 			poblacion[POPSIZE].fitness = poblacion[mem].fitness; 
-		}
+		  	/*Se copia el mejor miembro*/
+			for(i=0; i<al.p; i++){
+				poblacion[POPSIZE].y[i] = poblacion[mem].y[i];
+				//rc << "| ent2= ";
+			}
+					//poblacion[POPSIZE].fitness = -10; 
+					rc << "| ent1= ";
+				}
 	}
-    /*Se copia el mejor miembro*/
-	for(i=0; i<al.p; i++){
-		poblacion[POPSIZE].y[i] = poblacion[mejor].y[i];
-		//rc << "| mejor= "<<(poblacion[POPSIZE].y[i]); 
-	}
+  
 	//rc << "| popz= "<<(POPSIZE); 
-	//rc << "| fitmejor= "<<(poblacion[POPSIZE].fitness); 
+	rc << "| fitmejor= "<<(poblacion[POPSIZE].fitness); 
 	//evaluarh(poblacion[POPSIZE]);
 }
 
@@ -310,7 +332,7 @@ void reemplazar(){
 	//int t;
 	vector<int> numeros;
 	vector<int>  ::iterator my_iterator;
-
+	
     // Llenar el vector con los numeros desde 0 al tamaño de poblacion
 	for (int i = 0; i < POPSIZE; i++){
 		numeros.push_back(i);
@@ -477,13 +499,13 @@ void reemplazar(){
 
 void evaluarm() { 
 	int i,s,j; 
-	double x[al.p+1], d[al.p+1], a[al.p+1], r[al.p+1];
+	double x[al.p+1];
 	float f=0, sumf, sumu;
 	// sumatoria comienza en 0
 	sumf=0;
 	sumu=0;
 	//calculo de fitness
-	for(i=0; i<al.p; i++){
+	/*for(i=0; i<al.p; i++){
 		x[i] = al.bef[i]+poblacion[POPSIZE].y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
 		//rc << "| x= "<<(x[i]);
 		d[i]=x[i]-al.target[i]; // desviacion
@@ -501,45 +523,53 @@ void evaluarm() {
 		}
 		f=(al.pbef[i]*a[i]+al.plast[i]*r[i]);
 		sumf=sumf+f;	
-	}//rc <<endl;	
+	}//rc <<endl;	*/
 	for(i=0; i<al.p; i++){// calculo unfitness		
 		for(j=0; j<al.p; j++){
-			s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
-			if(s>0&&j>i){ 
-				f=s;
-			}else f=0; //valor distinto de 0 la separacion fue violada
-		}sumu=sumu+f;
+			if(poblacion[POPSIZE].pista[j]==poblacion[POPSIZE].pista[i]){
+				s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
+				if(s>0&&j>i){ 
+					f=s;
+					if(poblacion[POPSIZE].pista[j]<al.pista){ 
+						poblacion[POPSIZE].pista[j]=poblacion[POPSIZE].pista[j]+1;
+						//pbn << "|cta| ";
+						f=0;
+					}
+				}else f=0;
+			} 				
+		}sumu=sumu+f;//valor distinto de 0 la separacion fue violada
 	}
-	poblacion[POPSIZE].fitness=sumf;
+	//poblacion[POPSIZE].fitness=sumf;
 	poblacion[POPSIZE].unfitness=sumu;
-	
+
+	pbn << "| FITNESS= "<<(poblacion[POPSIZE].fitness); 
+	pbn <<endl;
+	pbn << "| UNFITNESS= "<<(hijo.unfitness);
+	pbn <<endl;
 
 	double ximp[al.p+1];
 	for(int asd=0; asd<al.p; asd++){
 		ximp[asd] = al.bef[asd]+poblacion[POPSIZE].y[asd]*(al.last[asd]-al.bef[asd]);
 		pbn << "| mejor= "<<(ximp[asd]); 
+		pbn << "| pista= "<<(poblacion[POPSIZE].pista[asd]); 
 	}
-	pbn << "| FITNESS= "<<(poblacion[POPSIZE].fitness); 
-	pbn <<endl;
-	pbn << "| UNFITNESS= "<<(hijo.unfitness);
-	pbn <<endl;
+	
 }
 
 
 int main(int argc, char *argv[]){
 	 
 	//srand(time(NULL));
-	leer_archivo();
+	al.pista = atoi(argv[1]);
 
-	 al.pista = atoi(argv[1]);
-	printf("%d",al.pista);
 	leer_archivo();
 	iniciar();
-
+	guardar_mejor();
+	poblacion[POPSIZE].fitness=99999999;
 	for(int i=0;i<MAXGENS;i++){ 
 		evaluar();
-		crossover();
 		guardar_mejor();
+		crossover();	
 	}
 	/*imprimir nuevapoblacion
 		for(int pop=0; pop<POPSIZE; pop++){
@@ -557,7 +587,7 @@ int main(int argc, char *argv[]){
 	}*/
 
 	evaluarm();
-	//guardar_mejor();
+	
 	
 	//variable(poblacion.y);
 	return 0;
