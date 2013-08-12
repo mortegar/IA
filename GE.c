@@ -6,7 +6,7 @@
 #include <vector>
 
 #define POPSIZE 70            /* poblacion size */ 
-#define MAXGENS 200          /* max. number of generations */ 
+#define MAXGENS 500          /* max. number of generations */ 
 #define PXOVER 0.90            /* probability of crossover */ 
 #define PMUTATION 0.01         /* probability of mutation */ 
 #define ACJ 500            /* probability of crossover */ 
@@ -269,6 +269,20 @@ void crossover(void) {
     }
 }
 
+void muta(void) { 
+    int mem, point; 
+    double x;
+    for(mem=0; mem<POPSIZE; ++mem){
+        x = rand()%1000/1000.0;
+	//printf("%f",x);
+	point = rand()%POPSIZE;
+	//rc <<" punto" << point;
+	//rc <<endl;
+	if(x < PMUTATION){
+          poblacion[mem].y[point] =(float)rand()/(float)RAND_MAX;
+        }
+    }
+}
 void guardar_mejor() {
 	int mem; int i; //int mejor = 0; 
  	
@@ -282,12 +296,12 @@ void guardar_mejor() {
 				//rc << "| ent2= ";
 			}
 					//poblacion[POPSIZE].fitness = -10; 
-					rc << "| ent1= ";
+					//rc << "| ent1= ";
 				}
 	}
   
 	//rc << "| popz= "<<(POPSIZE); 
-	rc << "| fitmejor= "<<(poblacion[POPSIZE].fitness); 
+	//rc << "| fitmejor= "<<(poblacion[POPSIZE].fitness); 
 	//evaluarh(poblacion[POPSIZE]);
 }
 
@@ -500,6 +514,7 @@ void reemplazar(){
 void evaluarm() { 
 	int i,s,j; 
 	double x[al.p+1];
+	//double d[al.p+1], a[al.p+1], r[al.p+1];
 	float f=0, sumf, sumu;
 	// sumatoria comienza en 0
 	sumf=0;
@@ -570,6 +585,7 @@ int main(int argc, char *argv[]){
 		evaluar();
 		guardar_mejor();
 		crossover();	
+		muta();
 	}
 	/*imprimir nuevapoblacion
 		for(int pop=0; pop<POPSIZE; pop++){
