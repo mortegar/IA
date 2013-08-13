@@ -5,11 +5,11 @@
 #include <fstream>
 #include <vector>
 
-#define POPSIZE 900            /* tamanio de la poblacion */ 
-#define MAXGENS 1600          /* maximo numero de poblacion */ 
+#define POPSIZE 20            /* tamanio de la poblacion */ 
+#define MAXGENS 80          /* maximo numero de poblacion */ 
 #define PXOVER 0.90            /* probabilidad de cruzamiento */ 
-#define PMUTATION 0.01         /* probabilidad de mutacion */ 
-#define ACJ 1000            /* tamanio de arreglos */ 
+#define PMUTATION 0.00         /* probabilidad de mutacion */ 
+#define ACJ 50            /* tamanio de arreglos */ 
 
 
 //estructura 
@@ -96,11 +96,12 @@ int i=0,k=0;
 
 int clasificar();
 void reemplazar();
+void evaluarm(char* archivo);
 using namespace std;
 ofstream rc("ruteo.txt");
 //ofstream rt("ruteo2.txt");
 //ofstream pb("pb.txt");
-ofstream pbn("pbn.txt");
+//ofstream pbn("pbn.txt");
 
 /*funcion que da comienzo a la primera generacion de la poblacion*/
 void iniciar(void){ 
@@ -117,7 +118,7 @@ void iniciar(void){
     }
     return;
 }
-//void cambia_pista();
+
 /*funcion que evalua el fitness y unfitness de cada miembro de la poblacion */
 void evaluar(void) { 
 	int mem; int i,s=0,j; 
@@ -169,8 +170,8 @@ void evaluar(void) {
 		//printf("FITNESS %.5f\n", poblacion[mem].fitness);
 		//pb << "| FITNESS= "<<(poblacion[mem].fitness);
 		//rc <<endl;//printf("UNFITNESS %.5f\n", poblacion[mem].unfitness);
-		rc << "| UNFITNESS= "<<(poblacion[mem].unfitness);
-		rc <<endl;
+		//rc << "| UNFITNESS= "<<(poblacion[mem].unfitness);
+		//rc <<endl;
 	}
 }
 
@@ -251,10 +252,39 @@ void Xover(int one, int two){
 }
 /* seleciona los padres a cruzar*/
 void crossover(void) { 
-    int mem, one; 
+	
+    /*  torneo binario*/
+
+	int uno,dos;
+	int one,two;
+	int cant;
+	//double x;
+	cant = 2*POPSIZE;
+	for(int mem=0; mem<cant; ++mem){
+		// x = rand()%1000/1000.0;
+		//if(x < PXOVER){
+		uno = rand()%POPSIZE;
+		dos = rand()%POPSIZE;
+		if(poblacion[uno].fitness<=poblacion[dos].fitness){
+			one=uno;
+		}else one=dos;
+	
+		uno = rand()%POPSIZE;
+		dos = rand()%POPSIZE;
+		if(poblacion[uno].fitness<=poblacion[dos].fitness){
+			two=uno;
+		}else two=dos;
+		Xover(one, two);
+	//	}
+        }
+    
+
+	
+/*al azar con probabilidad */
+  /*  int mem, one; 
     int first  =  0;
 
-    /* contar el número de miembros elegidos */ 
+  // contar el número de miembros elegidos
     double x;
     for(mem=0; mem<POPSIZE; ++mem){
         x = rand()%1000/1000.0;
@@ -266,7 +296,7 @@ void crossover(void) {
             else
                 one = mem;
         }
-    }
+    }*/
 }
 
 void muta(void) { 
@@ -275,10 +305,12 @@ void muta(void) {
     for(mem=0; mem<POPSIZE; ++mem){
         x = rand()%1000/1000.0;
 	//printf("%f",x);
-	point = rand()%POPSIZE;
+	//point = rand()%POPSIZE;
+	point = rand()%al.p;
 	//rc <<" punto" << point;
 	//rc <<endl;
 	if(x < PMUTATION){
+	rc << "muto ";
           poblacion[mem].y[point] =(float)rand()/(float)RAND_MAX;
 	  //poblacion[mem].y[point] = al.target[point];
         }
@@ -292,7 +324,7 @@ void guardar_mejor() {
 			//mejor = mem;
 			poblacion[POPSIZE].fitness = poblacion[mem].fitness; 
 		  	/*Se copia el mejor miembro*/
-			for(i=0; i<al.p; i++){
+			for(i=0; i<al.p; i++){//el mejor miembro se guarda al final de la poblacion
 				poblacion[POPSIZE].y[i] = poblacion[mem].y[i];
 				//rc << "| ent2= ";
 			}
@@ -512,72 +544,21 @@ void reemplazar(){
 
 }
 
-void evaluarm() { 
-	int i,s,j; 
-	double x[al.p+1];
-	//double d[al.p+1], a[al.p+1], r[al.p+1];
-	float uf=0, sumf, sumu;
-	// sumatoria comienza en 0
-	sumf=0;
-	sumu=0;
-	//calculo de fitness
-	/*for(i=0; i<al.p; i++){
-		x[i] = al.bef[i]+poblacion[POPSIZE].y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
-		//rc << "| x= "<<(x[i]);
-		d[i]=x[i]-al.target[i]; // desviacion
-		if(d[i]<0){ // aterriza antes target time
-			a[i]=-d[i];
-			r[i]=0;
-		}
-		if(d[i]>0){ // aterriza despues target time
-			r[i]=d[i];
-			a[i]=0;
-		}
-		if(d[i]==0){ // aterriza justo en target time 
-			a[i]=0;
-			r[i]=0;
-		}
-		f=(al.pbef[i]*a[i]+al.plast[i]*r[i]);
-		sumf=sumf+f;	
-	}//rc <<endl;	*/
-	for(i=0; i<al.p; i++){// calculo unfitness		
-		for(j=0; j<al.p; j++){
-			if(poblacion[POPSIZE].pista[j]==poblacion[POPSIZE].pista[i]){
-				s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
-				if(s>0&&j>i){ 
-					uf=s;
-					if(poblacion[POPSIZE].pista[j]<al.pista){ 
-						poblacion[POPSIZE].pista[j]=poblacion[POPSIZE].pista[j]+1;
-						//pbn << "|cta| ";
-						uf=0;
-					}
-				}else uf=0;
-			} 				
-		}sumu=sumu+uf;//valor distinto de 0 la separacion fue violada
-	}
-	//poblacion[POPSIZE].fitness=sumf;
-	poblacion[POPSIZE].unfitness=sumu;
 
-	pbn << "| FITNESS= "<<(poblacion[POPSIZE].fitness); 
-	pbn <<endl;
-	pbn << "| UNFITNESS= "<<(hijo.unfitness);
-	pbn <<endl;
-
-	double ximp[al.p+1];
-	for(int asd=0; asd<al.p; asd++){
-		ximp[asd] = al.bef[asd]+poblacion[POPSIZE].y[asd]*(al.last[asd]-al.bef[asd]);
-		pbn << "| mejor= "<<(ximp[asd]); 
-		pbn << "| pista= "<<(poblacion[POPSIZE].pista[asd]); 
-	}
-	
-}
 
 
 int main(int argc, char *argv[]){
-	 
+	char* archivo; 
+	char* out;
 	//srand(time(NULL));
 	al.pista = atoi(argv[1]);
 
+	archivo = argv[2];
+	out=".out"; 
+	strcat( archivo, out );	
+	//printf("archivo: %s",archivo);
+	
+	
 	leer_archivo();
 	iniciar();
 	guardar_mejor();
@@ -603,11 +584,78 @@ int main(int argc, char *argv[]){
 		pbn << "| mejor= "<<(ximp[asd]); 
 	}*/
 
-	evaluarm();
+	evaluarm(archivo);
 	
 	
 	//variable(poblacion.y);
 	return 0;
 }
+
+void evaluarm(char* archivo) { 
+	int i,s,j; 
+	double x[al.p+1];
+	//double d[al.p+1], a[al.p+1], r[al.p+1];
+	float uf=0, sumf, sumu;
+	ofstream outp(archivo);
+	// sumatoria comienza en 0
+	sumf=0;
+	sumu=0;
+	//calculo de fitness
+	/*for(i=0; i<al.p; i++){
+		x[i] = al.bef[i]+poblacion[POPSIZE].y[i]*(al.last[i]-al.bef[i]); //convertir de y a x
+		//rc << "| x= "<<(x[i]);
+		d[i]=x[i]-al.target[i]; // desviacion
+
+		if(d[i]<0){ // aterriza antes target time
+			a[i]=-d[i];
+			r[i]=0;
+
+		}
+		if(d[i]>0){ // aterriza despues target time
+			r[i]=d[i];
+			a[i]=0;
+
+		}
+		if(d[i]==0){ // aterriza justo en target time 
+			a[i]=0;
+
+			r[i]=0;
+		}
+		f=(al.pbef[i]*a[i]+al.plast[i]*r[i]);
+		sumf=sumf+f;	
+
+	}//rc <<endl;	*/
+	for(i=0; i<al.p; i++){// calculo unfitness		
+		for(j=0; j<al.p; j++){
+			if(poblacion[POPSIZE].pista[j]==poblacion[POPSIZE].pista[i]){
+				s=al.sep[i][j]-abs(x[j]-x[i]); //mayor unfitness menos factible
+				if(s>0&&j>i){ 
+					uf=s;
+					if(poblacion[POPSIZE].pista[j]<al.pista){ 
+						poblacion[POPSIZE].pista[j]=poblacion[POPSIZE].pista[j]+1;
+						//pbn << "|cta| ";
+						uf=0;
+					}
+				}else uf=0;
+			} 				
+		}sumu=sumu+uf;//valor distinto de 0 la separacion fue violada
+	}
+	//poblacion[POPSIZE].fitness=sumf;
+	poblacion[POPSIZE].unfitness=sumu;
+
+	outp <<(poblacion[POPSIZE].fitness); 
+	outp <<endl;
+	//pbn << "| UNFITNESS= "<<(hijo.unfitness);
+	//pbn <<endl;
+
+	double ximp[al.p+1];
+	for(int b=0; b<al.p; b++){
+		ximp[b] = al.bef[b]+poblacion[POPSIZE].y[b]*(al.last[b]-al.bef[b]);
+		outp << (ximp[b]) <<" " ; 
+		outp << (poblacion[POPSIZE].pista[b])<<endl; 
+	}
+	
+}
+
 
 
