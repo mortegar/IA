@@ -1,7 +1,9 @@
+EXE = ALSP
+OBJ = alsp.c 
+all: $(EXE)
+$(EXE): 
+	g++ -o ALSP alsp.c -Wall
+clean:
+	rm -fr *.o *~ $(EXE)
 
-AG:GE.c
-	gcc ag.c -o AG $(flags)
-exe:GE
-	./mf < a2.txt 
-clean: 
-	
+

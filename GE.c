@@ -611,7 +611,54 @@ void evaluarm(char* archivo) {
 			r[i]=0;
 
 		}
-		if(d[i]>0){ // aterriza despues target time
+		if(d[i]>0){ // aterriza dint leer_archivo(){
+char *ptr;
+char mje[ACJ];
+int j,n;
+int i=0,k=0;
+
+    while(fgets(mje,50,stdin) != NULL){
+	n=linea%2;
+	if (linea==0){
+		ptr = strtok(mje, " ");
+        	al.p=atoi(mje);
+	}else if(n!=0){
+		j=0;
+             	ptr = strtok(mje, " ");
+                         while(ptr != NULL){
+				if(j==0){
+					al.bef[i]=atoi(ptr);					
+					rc<<"|bef"<<(al.bef[i]);}
+				if(j==1){
+					al.target[i]=atoi(ptr);					
+					rc<<"|t"<<(al.target[i]);}
+				if(j==2){
+					al.last[i]=atoi(ptr);					
+					rc<<"|last"<<(al.last[i]);}
+				if(j==3){
+					al.pbef[i]=atoi(ptr);
+					rc<<"pbef"<<(al.pbef[i]);}
+				if(j==4){
+					al.plast[i]=atoi(ptr);
+					rc<<"pla"<<(al.plast[i])<<endl;}
+                               ptr = strtok(NULL, " ");
+                               j++;
+			}    
+		i++; 
+	} else if(n==0){
+		j=0;
+		ptr = strtok(mje, " ");
+                         while(ptr != NULL){
+				al.sep[j][k]=atoi(ptr);   
+				
+                               ptr = strtok(NULL, " ");
+                               j++;
+			}     k++; 
+	}
+    linea++; 	   
+    }		
+    return 0;
+}espues target time
 			r[i]=d[i];
 			a[i]=0;
 
