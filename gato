@@ -1,0 +1,44 @@
+from turtle import *
+j1=(raw_input("Ingrese nombre del jugador 1:"))
+j2=(raw_input("Ingrese nombre del jugador 2:"))
+
+shape('turtle')
+#Dibujar la grilla
+up()
+goto(-90,50)
+down()
+forward(240)
+up()
+goto(-90,-30)
+down()
+forward(240)
+up()
+goto(-10,-110)
+seth(90)
+down()
+forward(240)
+up()
+goto(70,-110)
+down()
+forward(240)
+up()
+goto(-100,-120)
+down()
+
+#Dibujar una x
+left(45)
+forward(50)
+up()
+left(90)
+forward(-50)
+down()
+forward(50)
+#Dibujar un circulo
+#circle (30)
+print j1,", haga su jugada:"
+
+
+
+NL=int(raw_input("ingrese NL:"))
+NC=int(60-NL*0.3)/0.7
+c3=int(3*NC-c2-c1)
