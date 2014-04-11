@@ -29,16 +29,11 @@ down()
 left(45)
 forward(50)
 up()
+forward(-50/2)
 left(90)
-forward(-50)
+forward(-50/2)
 down()
 forward(50)
 #Dibujar un circulo
 #circle (30)
 print j1,", haga su jugada:"
-
-
-
-NL=int(raw_input("ingrese NL:"))
-NC=int(60-NL*0.3)/0.7
-c3=int(3*NC-c2-c1)
